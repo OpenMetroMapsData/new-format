@@ -1,0 +1,953 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metromap version="0.0.1">
+  <description>a metro map in the new format</description>
+  <graph id="g1">
+    <node id="altbach">Altbach</node>
+    <node id="asperg">Asperg</node>
+    <node id="backnang">Backnang</node>
+    <node id="benningen (neckar)">Benningen (Neckar)</node>
+    <node id="beutelsbach">Beutelsbach</node>
+    <node id="bietigheim-bissingen">Bietigheim-Bissingen</node>
+    <node id="burgstall (murr)">Burgstall (Murr)</node>
+    <node id="böblingen">Böblingen</node>
+    <node id="böblingen goldberg">Böblingen Goldberg</node>
+    <node id="ditzingen">Ditzingen</node>
+    <node id="echterdingen">Echterdingen</node>
+    <node id="ehningen (bei böblingen)">Ehningen (bei Böblingen)</node>
+    <node id="endersbach">Endersbach</node>
+    <node id="erdmannhausen">Erdmannhausen</node>
+    <node id="esslingen (neckar)">Esslingen (Neckar)</node>
+    <node id="esslingen zell">Esslingen Zell</node>
+    <node id="esslingen-mettingen">Esslingen-Mettingen</node>
+    <node id="favoritepark">Favoritepark</node>
+    <node id="fellbach">Fellbach</node>
+    <node id="filderstadt">Filderstadt</node>
+    <node id="freiberg (neckar)">Freiberg (Neckar)</node>
+    <node id="geradstetten">Geradstetten</node>
+    <node id="grunbach">Grunbach</node>
+    <node id="gärtringen">Gärtringen</node>
+    <node id="herrenberg">Herrenberg</node>
+    <node id="hulb">Hulb</node>
+    <node id="höfingen">Höfingen</node>
+    <node id="kirchberg (murr)">Kirchberg (Murr)</node>
+    <node id="kirchheim (teck)">Kirchheim (Teck)</node>
+    <node id="kirchheim (teck)-ötlingen">Kirchheim (Teck)-Ötlingen</node>
+    <node id="korntal">Korntal</node>
+    <node id="kornwestheim personenbahnhof">Kornwestheim Personenbahnhof</node>
+    <node id="leinfelden">Leinfelden</node>
+    <node id="leonberg">Leonberg</node>
+    <node id="ludwigsburg">Ludwigsburg</node>
+    <node id="magstadt">Magstadt</node>
+    <node id="maichingen">Maichingen</node>
+    <node id="maichingen nord">Maichingen Nord</node>
+    <node id="malmsheim">Malmsheim</node>
+    <node id="marbach (neckar)">Marbach (Neckar)</node>
+    <node id="maubach">Maubach</node>
+    <node id="nellmersbach">Nellmersbach</node>
+    <node id="neustadt-hohenacker">Neustadt-Hohenacker</node>
+    <node id="neuwirtshaus (porscheplatz)">Neuwirtshaus (Porscheplatz)</node>
+    <node id="nufringen">Nufringen</node>
+    <node id="oberaichen">Oberaichen</node>
+    <node id="oberesslingen">Oberesslingen</node>
+    <node id="plochingen">Plochingen</node>
+    <node id="renningen">Renningen</node>
+    <node id="renningen süd">Renningen Süd</node>
+    <node id="rommelshausen">Rommelshausen</node>
+    <node id="rutesheim">Rutesheim</node>
+    <node id="schorndorf">Schorndorf</node>
+    <node id="schwaikheim">Schwaikheim</node>
+    <node id="sindelfingen">Sindelfingen</node>
+    <node id="stetten-beinstein">Stetten-Beinstein</node>
+    <node id="stuttgart feuersee">Stuttgart Feuersee</node>
+    <node id="stuttgart flughafen/messe">Stuttgart Flughafen/Messe</node>
+    <node id="stuttgart hauptbahnhof (tief)">Stuttgart Hauptbahnhof (tief)</node>
+    <node id="stuttgart neckarpark (mercedes-benz)">Stuttgart Neckarpark (Mercedes-Benz)</node>
+    <node id="stuttgart nord">Stuttgart Nord</node>
+    <node id="stuttgart nürnberger straße">Stuttgart Nürnberger Straße</node>
+    <node id="stuttgart schwabstraße">Stuttgart Schwabstraße</node>
+    <node id="stuttgart stadtmitte">Stuttgart Stadtmitte</node>
+    <node id="stuttgart universität">Stuttgart Universität</node>
+    <node id="stuttgart österfeld">Stuttgart Österfeld</node>
+    <node id="stuttgart-bad cannstatt">Stuttgart-Bad Cannstatt</node>
+    <node id="stuttgart-feuerbach">Stuttgart-Feuerbach</node>
+    <node id="stuttgart-obertürkheim">Stuttgart-Obertürkheim</node>
+    <node id="stuttgart-rohr">Stuttgart-Rohr</node>
+    <node id="stuttgart-sommerrain">Stuttgart-Sommerrain</node>
+    <node id="stuttgart-untertürkheim">Stuttgart-Untertürkheim</node>
+    <node id="stuttgart-vaihingen">Stuttgart-Vaihingen</node>
+    <node id="stuttgart-zuffenhausen">Stuttgart-Zuffenhausen</node>
+    <node id="tamm (württ)">Tamm (Württ)</node>
+    <node id="waiblingen">Waiblingen</node>
+    <node id="weil der stadt">Weil der Stadt</node>
+    <node id="weiler (rems)">Weiler (Rems)</node>
+    <node id="weilimdorf">Weilimdorf</node>
+    <node id="wendlingen (neckar)">Wendlingen (Neckar)</node>
+    <node id="wernau">Wernau</node>
+    <node id="winnenden">Winnenden</node>
+    <node id="winterbach (b schorndorf)">Winterbach (b Schorndorf)</node>
+    <metroline color="#009913" id="s1">S1</metroline>
+    <metroline color="#ff0000" id="s2">S2</metroline>
+    <metroline color="#ff9c00" id="s3">S3</metroline>
+    <metroline color="#005ca9" id="s4">S4</metroline>
+    <metroline color="#2c80ff" id="s5">S5</metroline>
+    <metroline color="#502d16" id="s6">S6</metroline>
+    <metroline color="#808000" id="s60">S60</metroline>
+    <edge id="e1" source="herrenberg" target="nufringen">s1</edge>
+    <edge id="e2" source="nufringen" target="gärtringen">s1</edge>
+    <edge id="e3" source="gärtringen" target="ehningen (bei böblingen)">s1</edge>
+    <edge id="e4" source="ehningen (bei böblingen)" target="hulb">s1</edge>
+    <edge id="e5" source="hulb" target="böblingen">s1</edge>
+    <edge id="e6" source="böblingen" target="böblingen goldberg">s1</edge>
+    <edge id="e7" source="böblingen goldberg" target="stuttgart-rohr">s1</edge>
+    <edge id="e8" source="stuttgart-rohr" target="stuttgart-vaihingen">s1, s2, s3</edge>
+    <edge id="e9" source="stuttgart-vaihingen" target="stuttgart österfeld">s1, s2, s3</edge>
+    <edge id="e10" source="stuttgart österfeld" target="stuttgart universität">s1, s2, s3</edge>
+    <edge id="e11" source="stuttgart universität" target="stuttgart schwabstraße">s1, s2, s3</edge>
+    <edge id="e12" source="stuttgart schwabstraße" target="stuttgart feuersee">s1, s2, s3, s4, s5, s6, s60</edge>
+    <edge id="e13" source="stuttgart feuersee" target="stuttgart stadtmitte">s1, s2, s3, s4, s5, s6, s60</edge>
+    <edge id="e14" source="stuttgart stadtmitte" target="stuttgart hauptbahnhof (tief)">s1, s2, s3, s4, s5, s6, s60</edge>
+    <edge id="e15" source="stuttgart hauptbahnhof (tief)" target="stuttgart-bad cannstatt">s1, s2, s3</edge>
+    <edge id="e16" source="stuttgart-bad cannstatt" target="stuttgart neckarpark (mercedes-benz)">s1</edge>
+    <edge id="e17" source="stuttgart neckarpark (mercedes-benz)" target="stuttgart-untertürkheim">s1</edge>
+    <edge id="e18" source="stuttgart-untertürkheim" target="stuttgart-obertürkheim">s1</edge>
+    <edge id="e19" source="stuttgart-obertürkheim" target="esslingen-mettingen">s1</edge>
+    <edge id="e20" source="esslingen-mettingen" target="esslingen (neckar)">s1</edge>
+    <edge id="e21" source="esslingen (neckar)" target="oberesslingen">s1</edge>
+    <edge id="e22" source="oberesslingen" target="esslingen zell">s1</edge>
+    <edge id="e23" source="esslingen zell" target="altbach">s1</edge>
+    <edge id="e24" source="altbach" target="plochingen">s1</edge>
+    <edge id="e25" source="plochingen" target="wernau">s1</edge>
+    <edge id="e26" source="wernau" target="wendlingen (neckar)">s1</edge>
+    <edge id="e27" source="wendlingen (neckar)" target="kirchheim (teck)-ötlingen">s1</edge>
+    <edge id="e28" source="kirchheim (teck)-ötlingen" target="kirchheim (teck)">s1</edge>
+    <edge id="e29" source="schorndorf" target="weiler (rems)">s2</edge>
+    <edge id="e30" source="weiler (rems)" target="winterbach (b schorndorf)">s2</edge>
+    <edge id="e31" source="winterbach (b schorndorf)" target="geradstetten">s2</edge>
+    <edge id="e32" source="geradstetten" target="grunbach">s2</edge>
+    <edge id="e33" source="grunbach" target="beutelsbach">s2</edge>
+    <edge id="e34" source="beutelsbach" target="endersbach">s2</edge>
+    <edge id="e35" source="endersbach" target="stetten-beinstein">s2</edge>
+    <edge id="e36" source="stetten-beinstein" target="rommelshausen">s2</edge>
+    <edge id="e37" source="rommelshausen" target="waiblingen">s2</edge>
+    <edge id="e38" source="waiblingen" target="fellbach">s2, s3</edge>
+    <edge id="e39" source="fellbach" target="stuttgart-sommerrain">s2, s3</edge>
+    <edge id="e40" source="stuttgart-sommerrain" target="stuttgart nürnberger straße">s2, s3</edge>
+    <edge id="e41" source="stuttgart nürnberger straße" target="stuttgart-bad cannstatt">s2, s3</edge>
+    <edge id="e42" source="stuttgart-rohr" target="oberaichen">s2, s3</edge>
+    <edge id="e43" source="oberaichen" target="leinfelden">s2, s3</edge>
+    <edge id="e44" source="leinfelden" target="echterdingen">s2, s3</edge>
+    <edge id="e45" source="echterdingen" target="stuttgart flughafen/messe">s2, s3</edge>
+    <edge id="e46" source="stuttgart flughafen/messe" target="filderstadt">s2</edge>
+    <edge id="e47" source="backnang" target="maubach">s3</edge>
+    <edge id="e48" source="maubach" target="nellmersbach">s3</edge>
+    <edge id="e49" source="nellmersbach" target="winnenden">s3</edge>
+    <edge id="e50" source="winnenden" target="schwaikheim">s3</edge>
+    <edge id="e51" source="schwaikheim" target="neustadt-hohenacker">s3</edge>
+    <edge id="e52" source="neustadt-hohenacker" target="waiblingen">s3</edge>
+    <edge id="e53" source="stuttgart hauptbahnhof (tief)" target="stuttgart nord">s4, s5, s6, s60</edge>
+    <edge id="e54" source="stuttgart nord" target="stuttgart-feuerbach">s4, s5, s6, s60</edge>
+    <edge id="e55" source="stuttgart-feuerbach" target="stuttgart-zuffenhausen">s4, s5, s6, s60</edge>
+    <edge id="e56" source="stuttgart-zuffenhausen" target="kornwestheim personenbahnhof">s4, s5</edge>
+    <edge id="e57" source="kornwestheim personenbahnhof" target="ludwigsburg">s4, s5</edge>
+    <edge id="e58" source="ludwigsburg" target="favoritepark">s4</edge>
+    <edge id="e59" source="favoritepark" target="freiberg (neckar)">s4</edge>
+    <edge id="e60" source="freiberg (neckar)" target="benningen (neckar)">s4</edge>
+    <edge id="e61" source="benningen (neckar)" target="marbach (neckar)">s4</edge>
+    <edge id="e62" source="marbach (neckar)" target="erdmannhausen">s4</edge>
+    <edge id="e63" source="erdmannhausen" target="kirchberg (murr)">s4</edge>
+    <edge id="e64" source="kirchberg (murr)" target="burgstall (murr)">s4</edge>
+    <edge id="e65" source="burgstall (murr)" target="backnang">s4</edge>
+    <edge id="e66" source="bietigheim-bissingen" target="tamm (württ)">s5</edge>
+    <edge id="e67" source="tamm (württ)" target="asperg">s5</edge>
+    <edge id="e68" source="asperg" target="ludwigsburg">s5</edge>
+    <edge id="e69" source="stuttgart-zuffenhausen" target="neuwirtshaus (porscheplatz)">s6, s60</edge>
+    <edge id="e70" source="neuwirtshaus (porscheplatz)" target="korntal">s6, s60</edge>
+    <edge id="e71" source="korntal" target="weilimdorf">s6, s60</edge>
+    <edge id="e72" source="weilimdorf" target="ditzingen">s6, s60</edge>
+    <edge id="e73" source="ditzingen" target="höfingen">s6, s60</edge>
+    <edge id="e74" source="höfingen" target="leonberg">s6, s60</edge>
+    <edge id="e75" source="leonberg" target="rutesheim">s6, s60</edge>
+    <edge id="e76" source="rutesheim" target="renningen">s6, s60</edge>
+    <edge id="e77" source="renningen" target="malmsheim">s6</edge>
+    <edge id="e78" source="malmsheim" target="weil der stadt">s6</edge>
+    <edge id="e79" source="böblingen" target="sindelfingen">s60</edge>
+    <edge id="e80" source="sindelfingen" target="maichingen">s60</edge>
+    <edge id="e81" source="maichingen" target="maichingen nord">s60</edge>
+    <edge id="e82" source="maichingen nord" target="magstadt">s60</edge>
+    <edge id="e83" source="magstadt" target="renningen süd">s60</edge>
+    <edge id="e84" source="renningen süd" target="renningen">s60</edge>
+  </graph>
+  <geometricembedding height="830" id="ge1" width="1000">
+    <metroline edge="e1" id="s1" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.600000 0.074510">50.000000 779.511624 m 50.000000 779.511624 76.422808 741.971419 87.140014 725.477148 c</path>
+    </metroline>
+    <metroline edge="e2" id="s1" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.600000 0.074510">87.140014 725.477148 m 95.155982 713.140205 102.973011 694.733248 112.415743 683.450929 c</path>
+    </metroline>
+    <metroline edge="e3" id="s1" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.600000 0.074510">112.415743 683.450929 m 124.778378 668.679866 144.052652 651.385031 159.156299 639.430999 c</path>
+    </metroline>
+    <metroline edge="e4" id="s1" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.600000 0.074510">159.156299 639.430999 m 174.078706 627.620413 196.104212 614.796581 212.128930 604.531273 c</path>
+    </metroline>
+    <metroline edge="e5" id="s1" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.600000 0.074510">212.128930 604.531273 m 221.039180 598.823438 233.599431 592.274248 242.260575 586.195059 c</path>
+    </metroline>
+    <metroline edge="e6" id="s1" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.600000 0.074510">242.260575 586.195059 m 248.916104 581.523595 255.582526 572.030029 263.042751 568.795264 c</path>
+    </metroline>
+    <metroline edge="e7" id="s1" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.600000 0.074510">263.042751 568.795264 m 298.147907 553.573615 348.508441 541.964474 382.908392 525.209952 c</path>
+    </metroline>
+    <metroline edge="e8" id="s1" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.600000 0.074510">384.457821 526.126069 m 387.475397 521.022438 389.801881 513.329480 391.376608 507.613445 c</path>
+    </metroline>
+    <metroline edge="e8" id="s2" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.000000 0.000000">382.908392 525.209952 m 385.853382 520.229087 388.104410 512.713906 389.641258 507.135368 c</path>
+    </metroline>
+    <metroline edge="e8" id="s3" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.611765 0.000000">381.358963 524.293836 m 384.231370 519.435730 386.406937 512.098339 387.905907 506.657291 c</path>
+    </metroline>
+    <metroline edge="e9" id="s1" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.600000 0.074510">391.376608 507.613445 m 393.293670 500.654785 397.728437 490.956308 395.880230 483.979044 c</path>
+    </metroline>
+    <metroline edge="e9" id="s2" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.000000 0.000000">389.641258 507.135368 m 391.484805 500.443553 395.917573 491.149655 394.140240 484.439950 c</path>
+    </metroline>
+    <metroline edge="e9" id="s3" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.611765 0.000000">387.905907 506.657291 m 389.676050 500.231924 394.106815 491.343400 392.400250 484.900855 c</path>
+    </metroline>
+    <metroline edge="e10" id="s1" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.600000 0.074510">395.880230 483.979044 m 394.288575 477.970303 376.904479 474.558116 380.829765 469.738318 c</path>
+    </metroline>
+    <metroline edge="e10" id="s2" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.000000 0.000000">394.140240 484.439950 m 392.479977 478.172204 375.339580 473.629202 379.434065 468.601647 c</path>
+    </metroline>
+    <metroline edge="e10" id="s3" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.611765 0.000000">392.400250 484.900855 m 390.664998 478.350014 373.758944 472.719611 378.038364 467.464977 c</path>
+    </metroline>
+    <metroline edge="e11" id="s1" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.600000 0.074510">380.829765 469.738318 m 397.129814 449.723740 428.762375 433.236937 450.008011 418.577541 c</path>
+    </metroline>
+    <metroline edge="e11" id="s2" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.000000 0.000000">379.434065 468.601647 m 395.829847 448.469520 427.615334 431.841487 448.985750 417.095993 c</path>
+    </metroline>
+    <metroline edge="e11" id="s3" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.611765 0.000000">378.038364 467.464977 m 394.529886 447.215291 426.468285 430.446043 447.963489 415.614446 c</path>
+    </metroline>
+    <metroline edge="e12" id="s1" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.600000 0.074510">452.052533 421.540635 m 455.135779 419.413209 460.425788 418.848888 463.685577 417.003321 c</path>
+    </metroline>
+    <metroline edge="e12" id="s2" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.000000 0.000000">451.030272 420.059088 m 454.152295 417.904906 459.497967 417.305720 462.798754 415.436942 c</path>
+    </metroline>
+    <metroline edge="e12" id="s3" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.611765 0.000000">450.008011 418.577540 m 453.168828 416.396591 458.570128 415.762562 461.911931 413.870563 c</path>
+    </metroline>
+    <metroline edge="e12" id="s4" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.360784 0.662745">448.985750 417.095993 m 452.185377 414.888264 457.642272 414.219414 461.025107 412.304183 c</path>
+    </metroline>
+    <metroline edge="e12" id="s5" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.172549 0.501961 1.000000">447.963489 415.614446 m 451.201942 413.379927 456.714399 412.676275 460.138284 410.737804 c</path>
+    </metroline>
+    <metroline edge="e12" id="s6" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.313726 0.176471 0.086275">446.941227 414.132899 m 450.218522 411.871580 455.786511 411.133145 459.251461 409.171425 c</path>
+    </metroline>
+    <metroline edge="e12" id="s60" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.501961 0.501961 0.000000">445.918966 412.651352 m 449.235117 410.363222 454.858606 409.590024 458.364637 407.605045 c</path>
+    </metroline>
+    <metroline edge="e13" id="s1" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.600000 0.074510">463.685577 417.003321 m 467.320577 414.945326 471.899843 411.565588 474.651007 408.422394 c</path>
+    </metroline>
+    <metroline edge="e13" id="s2" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.000000 0.000000">462.798754 415.436942 m 466.276337 413.468069 470.664532 410.243949 473.296554 407.236874 c</path>
+    </metroline>
+    <metroline edge="e13" id="s3" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.611765 0.000000">461.911931 413.870563 m 465.232100 411.990811 469.429219 408.922313 471.942102 406.051354 c</path>
+    </metroline>
+    <metroline edge="e13" id="s4" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.360784 0.662745">461.025107 412.304183 m 464.187867 410.513551 468.193902 407.600680 470.587650 404.865833 c</path>
+    </metroline>
+    <metroline edge="e13" id="s5" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.172549 0.501961 1.000000">460.138284 410.737804 m 463.143638 409.036289 466.958583 406.279051 469.233197 403.680313 c</path>
+    </metroline>
+    <metroline edge="e13" id="s6" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.313726 0.176471 0.086275">459.251461 409.171425 m 462.099413 407.559024 465.723261 404.957425 467.878745 402.494793 c</path>
+    </metroline>
+    <metroline edge="e13" id="s60" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.501961 0.501961 0.000000">458.364637 407.605045 m 461.055194 406.081756 464.487934 403.635804 466.524292 401.309272 c</path>
+    </metroline>
+    <metroline edge="e14" id="s1" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.600000 0.074510">474.651007 408.422394 m 478.320987 404.229457 481.868801 397.607478 485.032458 393.020458 c</path>
+    </metroline>
+    <metroline edge="e14" id="s2" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.000000 0.000000">473.296554 407.236874 m 476.925679 403.090614 480.422267 396.534452 483.550704 391.998496 c</path>
+    </metroline>
+    <metroline edge="e14" id="s3" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.611765 0.000000">471.942102 406.051354 m 475.530373 401.951768 478.975730 395.461428 482.068951 390.976534 c</path>
+    </metroline>
+    <metroline edge="e14" id="s4" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.360784 0.662745">470.587650 404.865833 m 474.135070 400.812920 477.529191 394.388408 480.587197 389.954572 c</path>
+    </metroline>
+    <metroline edge="e14" id="s5" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.172549 0.501961 1.000000">469.233197 403.680313 m 472.739769 399.674069 476.082651 393.315390 479.105444 388.932610 c</path>
+    </metroline>
+    <metroline edge="e14" id="s6" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.313726 0.176471 0.086275">467.878745 402.494793 m 471.344470 398.535215 474.636108 392.242376 477.623690 387.910648 c</path>
+    </metroline>
+    <metroline edge="e14" id="s60" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.501961 0.501961 0.000000">466.524292 401.309272 m 469.949174 397.396358 473.189563 391.169365 476.141936 386.888686 c</path>
+    </metroline>
+    <metroline edge="e15" id="s1" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.600000 0.074510">481.754565 391.324701 m 496.027806 379.163722 515.432428 362.740759 532.308690 354.567228 c</path>
+    </metroline>
+    <metroline edge="e15" id="s2" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.000000 0.000000">480.587197 389.954572 m 494.964690 377.704770 514.524564 361.180458 531.524090 352.947227 c</path>
+    </metroline>
+    <metroline edge="e15" id="s3" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.611765 0.000000">479.419830 388.584443 m 493.901576 376.245816 513.616698 359.620158 530.739489 351.327227 c</path>
+    </metroline>
+    <metroline edge="e16" id="s1" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.600000 0.074510">531.524090 352.947227 m 542.444564 350.653335 555.267534 364.665778 563.088894 372.624737 c</path>
+    </metroline>
+    <metroline edge="e17" id="s1" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.600000 0.074510">563.088894 372.624737 m 569.030346 378.670715 571.416770 390.595618 575.706401 397.906826 c</path>
+    </metroline>
+    <metroline edge="e18" id="s1" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.600000 0.074510">575.706401 397.906826 m 582.386395 409.292144 593.595237 423.099675 599.600543 434.854847 c</path>
+    </metroline>
+    <metroline edge="e19" id="s1" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.600000 0.074510">599.600543 434.854847 m 603.925978 443.321731 603.485473 457.806123 609.894594 464.828991 c</path>
+    </metroline>
+    <metroline edge="e20" id="s1" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.600000 0.074510">609.894594 464.828991 m 617.546266 473.213400 633.135699 477.538584 643.252205 482.686660 c</path>
+    </metroline>
+    <metroline edge="e21" id="s1" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.600000 0.074510">643.252205 482.686660 m 654.118207 488.216140 668.356401 496.268767 679.822212 500.413681 c</path>
+    </metroline>
+    <metroline edge="e22" id="s1" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.600000 0.074510">679.822212 500.413681 m 692.757017 505.089639 710.895774 508.437923 724.194526 511.947474 c</path>
+    </metroline>
+    <metroline edge="e23" id="s1" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.600000 0.074510">724.194526 511.947474 m 733.506944 514.405028 746.068235 517.218883 755.192038 520.303836 c</path>
+    </metroline>
+    <metroline edge="e24" id="s1" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.600000 0.074510">755.192038 520.303836 m 766.966809 524.285137 785.834681 525.882481 793.750283 535.465761 c</path>
+    </metroline>
+    <metroline edge="e25" id="s1" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.600000 0.074510">793.750283 535.465761 m 800.929810 544.157890 804.493694 563.190867 798.505768 572.743011 c</path>
+    </metroline>
+    <metroline edge="e26" id="s1" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.600000 0.074510">798.505768 572.743011 m 787.422856 590.422849 742.944846 594.597484 743.608686 615.453345 c</path>
+    </metroline>
+    <metroline edge="e27" id="s1" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.600000 0.074510">743.608686 615.453345 m 744.240120 635.291133 784.222489 637.776728 800.917439 648.510562 c</path>
+    </metroline>
+    <metroline edge="e28" id="s1" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.600000 0.074510">800.917439 648.510562 m 812.664319 656.063090 838.258313 676.307282 838.258313 676.307282 c</path>
+    </metroline>
+    <metroline edge="e29" id="s2" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.000000 0.000000">950.000000 341.568781 m 950.000000 341.568781 927.511036 352.232308 917.304682 355.186915 c</path>
+    </metroline>
+    <metroline edge="e30" id="s2" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.000000 0.000000">917.304682 355.186915 m 909.033967 357.581180 897.443786 360.276507 888.893915 359.258201 c</path>
+    </metroline>
+    <metroline edge="e31" id="s2" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.000000 0.000000">888.893915 359.258201 m 871.607648 357.199373 849.308214 350.053959 832.619317 345.100726 c</path>
+    </metroline>
+    <metroline edge="e32" id="s2" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.000000 0.000000">832.619317 345.100726 m 824.147821 342.586402 813.918705 335.668917 805.172133 334.409733 c</path>
+    </metroline>
+    <metroline edge="e33" id="s2" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.000000 0.000000">805.172133 334.409733 m 791.555743 332.449473 773.025687 335.690334 759.316444 334.547808 c</path>
+    </metroline>
+    <metroline edge="e34" id="s2" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.000000 0.000000">759.316444 334.547808 m 753.011371 334.022344 745.306682 329.380468 738.998417 328.894825 c</path>
+    </metroline>
+    <metroline edge="e35" id="s2" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.000000 0.000000">738.998417 328.894825 m 731.784815 328.339484 722.202684 331.651603 714.986202 331.135034 c</path>
+    </metroline>
+    <metroline edge="e36" id="s2" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.000000 0.000000">714.986202 331.135034 m 701.074278 330.139194 681.986009 329.134675 669.062656 323.888699 c</path>
+    </metroline>
+    <metroline edge="e37" id="s2" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.000000 0.000000">669.062656 323.888699 m 659.890162 320.165310 653.855160 303.823224 644.066501 302.346607 c</path>
+    </metroline>
+    <metroline edge="e38" id="s2" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.000000 0.000000">643.662331 301.542463 m 632.281575 307.262534 614.961458 309.286020 602.800421 313.074158 c</path>
+    </metroline>
+    <metroline edge="e38" id="s3" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.611765 0.000000">644.470671 303.150750 m 633.011454 308.910256 615.580624 310.978457 603.335747 314.792711 c</path>
+    </metroline>
+    <metroline edge="e39" id="s2" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.000000 0.000000">602.800421 313.074158 m 593.457787 315.984369 580.429721 318.866292 572.021421 323.871753 c</path>
+    </metroline>
+    <metroline edge="e39" id="s3" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.611765 0.000000">603.335747 314.792711 m 594.113572 317.665399 581.242050 320.477515 572.942162 325.418438 c</path>
+    </metroline>
+    <metroline edge="e40" id="s2" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.000000 0.000000">572.021421 323.871753 m 565.421510 327.800679 560.344761 337.716845 554.025796 342.083305 c</path>
+    </metroline>
+    <metroline edge="e40" id="s3" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.611765 0.000000">572.942162 325.418438 m 566.372899 329.329120 561.338695 339.217966 555.049074 343.564150 c</path>
+    </metroline>
+    <metroline edge="e41" id="s2" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.000000 0.000000">554.025796 342.083305 m 547.828814 346.365474 537.392528 348.139838 531.040379 352.188265 c</path>
+    </metroline>
+    <metroline edge="e41" id="s3" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.611765 0.000000">555.049074 343.564150 m 548.835788 347.857586 538.376662 349.647111 532.007800 353.706190 c</path>
+    </metroline>
+    <metroline edge="e42" id="s2" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.000000 0.000000">382.083104 525.568978 m 386.499862 535.721724 400.014934 544.183505 408.134084 551.711147 c</path>
+    </metroline>
+    <metroline edge="e42" id="s3" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.611765 0.000000">383.733680 524.850926 m 388.063386 534.803567 401.398760 543.011905 409.357886 550.391182 c</path>
+    </metroline>
+    <metroline edge="e43" id="s2" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.000000 0.000000">408.134084 551.711147 m 414.196258 557.331671 421.810718 565.840024 429.282945 569.376412 c</path>
+    </metroline>
+    <metroline edge="e43" id="s3" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.611765 0.000000">409.357886 550.391182 m 415.300152 555.900534 422.728521 564.282984 430.052952 567.749424 c</path>
+    </metroline>
+    <metroline edge="e44" id="s2" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.000000 0.000000">429.282945 569.376412 m 439.539409 574.230500 454.690961 576.990229 465.851472 579.039667 c</path>
+    </metroline>
+    <metroline edge="e44" id="s3" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.611765 0.000000">430.052952 567.749424 m 440.182844 572.543609 455.153792 575.245123 466.176576 577.269269 c</path>
+    </metroline>
+    <metroline edge="e45" id="s2" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.000000 0.000000">465.851472 579.039667 m 475.228648 580.761625 488.944794 577.697317 497.502365 581.900238 c</path>
+    </metroline>
+    <metroline edge="e45" id="s3" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.611765 0.000000">466.176576 577.269269 m 475.695567 579.017270 489.608879 576.018097 498.295871 580.284581 c</path>
+    </metroline>
+    <metroline edge="e46" id="s2" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.000000 0.000000">497.899118 581.092409 m 509.808175 586.941361 531.216014 610.177434 531.216014 610.177434 c</path>
+    </metroline>
+    <metroline edge="e47" id="s3" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.611765 0.000000">814.250170 61.956124 m 814.250170 61.956124 807.393172 85.383986 805.550780 95.663857 c</path>
+    </metroline>
+    <metroline edge="e48" id="s3" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.611765 0.000000">805.550780 95.663857 m 803.045158 109.644312 804.924859 129.414400 799.786926 142.655734 c</path>
+    </metroline>
+    <metroline edge="e49" id="s3" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.611765 0.000000">799.786926 142.655734 m 793.509667 158.833308 781.472526 179.804705 768.451482 191.275114 c</path>
+    </metroline>
+    <metroline edge="e50" id="s3" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.611765 0.000000">768.451482 191.275114 m 755.851104 202.374952 732.962601 207.880761 717.727663 214.942816 c</path>
+    </metroline>
+    <metroline edge="e51" id="s3" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.611765 0.000000">717.727663 214.942816 m 705.246728 220.728271 684.930823 223.580810 676.065596 234.099982 c</path>
+    </metroline>
+    <metroline edge="e52" id="s3" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.611765 0.000000">676.065596 234.099982 m 661.493171 251.391118 659.325714 285.658426 644.066501 302.346607 c</path>
+    </metroline>
+    <metroline edge="e53" id="s4" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.360784 0.662745">483.129031 390.865111 m 487.654081 378.233122 496.729664 360.419177 493.579050 347.376292 c</path>
+    </metroline>
+    <metroline edge="e53" id="s5" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.172549 0.501961 1.000000">481.434475 390.258085 m 485.856972 377.912378 494.908585 360.546231 491.829373 347.798941 c</path>
+    </metroline>
+    <metroline edge="e53" id="s6" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.313726 0.176471 0.086275">479.739920 389.651059 m 484.059949 377.591398 493.087564 360.673529 490.079697 348.221589 c</path>
+    </metroline>
+    <metroline edge="e53" id="s60" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.501961 0.501961 0.000000">478.045364 389.044033 m 482.263016 377.270164 491.266606 360.801090 488.330020 348.644238 c</path>
+    </metroline>
+    <metroline edge="e54" id="s4" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.360784 0.662745">493.579050 347.376292 m 491.241002 337.697261 472.734338 335.052005 467.899359 326.347231 c</path>
+    </metroline>
+    <metroline edge="e54" id="s5" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.172549 0.501961 1.000000">491.829373 347.798941 m 489.521007 338.242787 471.099397 335.815514 466.325798 327.221249 c</path>
+    </metroline>
+    <metroline edge="e54" id="s6" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.313726 0.176471 0.086275">490.079697 348.221589 m 487.800888 338.787797 469.464713 336.579487 464.752238 328.095268 c</path>
+    </metroline>
+    <metroline edge="e54" id="s60" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.501961 0.501961 0.000000">488.330020 348.644238 m 486.080639 339.332271 467.830297 337.343943 463.178678 328.969286 c</path>
+    </metroline>
+    <metroline edge="e55" id="s4" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.360784 0.662745">467.899359 326.347231 m 463.233524 317.946981 464.687937 304.136848 464.053069 294.548774 c</path>
+    </metroline>
+    <metroline edge="e55" id="s5" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.172549 0.501961 1.000000">466.325798 327.221249 m 461.546835 318.617326 462.907264 304.488247 462.257002 294.667700 c</path>
+    </metroline>
+    <metroline edge="e55" id="s6" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.313726 0.176471 0.086275">464.752238 328.095268 m 459.860075 319.287542 461.126599 304.839793 460.460935 294.786625 c</path>
+    </metroline>
+    <metroline edge="e55" id="s60" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.501961 0.501961 0.000000">463.178678 328.969286 m 458.173248 319.957638 459.345944 305.191476 458.664868 294.905551 c</path>
+    </metroline>
+    <metroline edge="e56" id="s4" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.360784 0.662745">462.249420 294.857914 m 465.290991 274.144136 477.006664 248.199927 481.128932 227.673879 c</path>
+    </metroline>
+    <metroline edge="e56" id="s5" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.172549 0.501961 1.000000">460.468517 294.596410 m 463.514177 273.854786 475.236360 247.873102 479.364169 227.319460 c</path>
+    </metroline>
+    <metroline edge="e57" id="s4" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.360784 0.662745">481.128932 227.673879 m 484.843243 209.179173 492.344482 183.599812 488.211771 165.194081 c</path>
+    </metroline>
+    <metroline edge="e57" id="s5" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.172549 0.501961 1.000000">479.364169 227.319460 m 483.034593 209.043282 490.539379 183.776679 486.455499 165.588423 c</path>
+    </metroline>
+    <metroline edge="e58" id="s4" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.360784 0.662745">487.333635 165.391252 m 487.440822 154.624535 478.926790 140.546363 481.216919 130.025479 c</path>
+    </metroline>
+    <metroline edge="e59" id="s4" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.360784 0.662745">481.216919 130.025479 m 484.277456 115.965335 493.053592 97.028391 504.196336 87.923787 c</path>
+    </metroline>
+    <metroline edge="e60" id="s4" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.360784 0.662745">504.196336 87.923787 m 520.366785 74.711105 547.747224 65.601241 567.680163 59.377389 c</path>
+    </metroline>
+    <metroline edge="e61" id="s4" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.360784 0.662745">567.680163 59.377389 m 575.295804 56.999484 586.355371 60.796700 594.270979 59.798917 c</path>
+    </metroline>
+    <metroline edge="e62" id="s4" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.360784 0.662745">594.270979 59.798917 m 608.794806 57.968151 627.505664 48.554041 642.072834 50.000000 c</path>
+    </metroline>
+    <metroline edge="e63" id="s4" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.360784 0.662745">642.072834 50.000000 m 654.807413 51.264053 668.817857 63.309941 680.574078 68.365491 c</path>
+    </metroline>
+    <metroline edge="e64" id="s4" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.360784 0.662745">680.574078 68.365491 m 697.439602 75.618203 719.090391 91.885080 737.428184 91.005838 c</path>
+    </metroline>
+    <metroline edge="e65" id="s4" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.360784 0.662745">737.428184 91.005838 m 762.039215 89.825813 814.250170 61.956124 814.250170 61.956124 c</path>
+    </metroline>
+    <metroline edge="e66" id="s5" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.172549 0.501961 1.000000">422.295861 50.582754 m 422.295861 50.582754 403.661665 88.234011 406.501244 104.991656 c</path>
+    </metroline>
+    <metroline edge="e67" id="s5" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.172549 0.501961 1.000000">406.501244 104.991656 m 408.615263 117.467441 426.397404 127.033272 436.533816 134.607403 c</path>
+    </metroline>
+    <metroline edge="e68" id="s5" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.172549 0.501961 1.000000">436.533816 134.607403 m 450.808652 145.273849 479.746012 149.267605 487.333635 165.391252 c</path>
+    </metroline>
+    <metroline edge="e69" id="s6" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.313726 0.176471 0.086275">462.137434 294.275508 m 458.725874 288.395395 448.112678 284.514182 441.353997 285.245405 c</path>
+    </metroline>
+    <metroline edge="e69" id="s60" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.501961 0.501961 0.000000">460.580503 295.178817 m 457.463782 289.806885 447.722182 286.366933 441.547609 287.034962 c</path>
+    </metroline>
+    <metroline edge="e70" id="s6" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.313726 0.176471 0.086275">441.353997 285.245405 m 428.353786 286.651900 412.973009 296.513524 400.495377 300.424076 c</path>
+    </metroline>
+    <metroline edge="e70" id="s60" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.501961 0.501961 0.000000">441.547609 287.034962 m 428.651235 288.430223 413.411657 298.262380 401.033688 302.141697 c</path>
+    </metroline>
+    <metroline edge="e71" id="s6" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.313726 0.176471 0.086275">400.495377 300.424076 m 389.730755 303.797763 375.246354 308.581292 364.002354 309.493062 c</path>
+    </metroline>
+    <metroline edge="e71" id="s60" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.501961 0.501961 0.000000">401.033688 302.141697 m 390.154648 305.551243 375.511351 310.365711 364.147838 311.287173 c</path>
+    </metroline>
+    <metroline edge="e72" id="s6" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.313726 0.176471 0.086275">364.002354 309.493062 m 352.974898 310.387274 338.188069 304.627146 327.258290 306.343046 c</path>
+    </metroline>
+    <metroline edge="e72" id="s60" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.501961 0.501961 0.000000">364.147838 311.287173 m 353.159801 312.178188 338.428168 306.411499 327.537458 308.121266 c</path>
+    </metroline>
+    <metroline edge="e73" id="s6" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.313726 0.176471 0.086275">327.258290 306.343046 m 309.793720 309.084864 286.415713 315.341816 271.081230 324.138542 c</path>
+    </metroline>
+    <metroline edge="e73" id="s60" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.501961 0.501961 0.000000">327.537458 308.121266 m 310.266481 310.832691 287.141404 317.000663 271.976901 325.699879 c</path>
+    </metroline>
+    <metroline edge="e74" id="s6" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.313726 0.176471 0.086275">271.081230 324.138542 m 259.608965 330.719681 252.081552 349.426334 240.598059 355.987864 c</path>
+    </metroline>
+    <metroline edge="e74" id="s60" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.501961 0.501961 0.000000">271.976901 325.699879 m 260.503868 332.281459 252.975322 350.988760 241.491061 357.550729 c</path>
+    </metroline>
+    <metroline edge="e75" id="s6" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.313726 0.176471 0.086275">240.598059 355.987864 m 224.705387 365.068745 198.767539 366.274110 182.535435 374.733319 c</path>
+    </metroline>
+    <metroline edge="e75" id="s60" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.501961 0.501961 0.000000">241.491061 357.550729 m 225.580563 366.641796 199.617613 367.860866 183.367302 376.329564 c</path>
+    </metroline>
+    <metroline edge="e76" id="s6" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.313726 0.176471 0.086275">182.535435 374.733319 m 169.319816 381.620515 155.703012 396.850418 144.154106 406.268953 c</path>
+    </metroline>
+    <metroline edge="e76" id="s60" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.501961 0.501961 0.000000">183.367302 376.329564 m 170.248528 383.166290 156.755996 398.314368 145.291721 407.663884 c</path>
+    </metroline>
+    <metroline edge="e77" id="s6" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.313726 0.176471 0.086275">144.722913 406.966419 m 134.367498 412.195633 117.087522 408.859135 106.704818 414.033956 c</path>
+    </metroline>
+    <metroline edge="e78" id="s6" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.313726 0.176471 0.086275">106.704818 414.033956 m 92.173841 421.276308 63.955666 447.221444 63.955666 447.221444 c</path>
+    </metroline>
+    <metroline edge="e79" id="s60" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.501961 0.501961 0.000000">242.260575 586.195059 m 242.260575 586.195059 240.401163 561.950979 234.722913 553.716367 c</path>
+    </metroline>
+    <metroline edge="e80" id="s60" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.501961 0.501961 0.000000">234.722913 553.716367 m 225.511530 540.357994 202.582593 531.493311 194.743723 517.285996 c</path>
+    </metroline>
+    <metroline edge="e81" id="s60" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.501961 0.501961 0.000000">194.743723 517.285996 m 192.155721 512.595452 209.071255 510.642277 208.054739 505.382463 c</path>
+    </metroline>
+    <metroline edge="e82" id="s60" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.501961 0.501961 0.000000">208.054739 505.382463 m 206.562888 497.663102 194.201571 493.290160 188.971726 487.419650 c</path>
+    </metroline>
+    <metroline edge="e83" id="s60" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.501961 0.501961 0.000000">188.971726 487.419650 m 174.569910 471.253586 153.141339 451.000864 142.707532 432.030106 c</path>
+    </metroline>
+    <metroline edge="e84" id="s60" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.501961 0.501961 0.000000">142.707532 432.030106 m 139.072267 425.420464 140.346509 413.110489 144.722913 406.966419 c</path>
+    </metroline>
+    <node id="backnang" type="ipe">
+      <path fill="0.000000 0.000000 0.000000">1.3333333730697632 0 0 1.3333333730697632 814.2501696448705 61.9561243301379 e</path>
+    </node>
+    <node id="backnang" type="ipe">
+      <path fill="1.000000 1.000000 1.000000">0.9523810148239136 0 0 0.9523810148239136 814.2501696448705 61.9561243301379 e</path>
+    </node>
+    <node id="böblingen" type="ipe">
+      <path fill="0.000000 0.000000 0.000000">1.3333333730697632 0 0 1.3333333730697632 242.26057453063063 586.1950591023209 e</path>
+    </node>
+    <node id="böblingen" type="ipe">
+      <path fill="1.000000 1.000000 1.000000">0.9523810148239136 0 0 0.9523810148239136 242.26057453063063 586.1950591023209 e</path>
+    </node>
+    <node id="ludwigsburg" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">486.455499 165.588423 m 488.211771 165.194081 l</path>
+    </node>
+    <node id="ludwigsburg" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">486.455499 165.588423 m 488.211771 165.194081 l</path>
+    </node>
+    <node id="renningen" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">145.291721 407.663884 m 144.154106 406.268953 l</path>
+    </node>
+    <node id="renningen" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">145.291721 407.663884 m 144.154106 406.268953 l</path>
+    </node>
+    <node id="stuttgart flughafen/messe" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">498.295871 580.284581 m 497.502365 581.900238 l</path>
+    </node>
+    <node id="stuttgart flughafen/messe" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">498.295871 580.284581 m 497.502365 581.900238 l</path>
+    </node>
+    <node id="stuttgart hauptbahnhof (tief)" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">476.141937 386.888672 m 479.419830 388.584442 l 483.129028 390.865112 l 485.032471 393.020447 l 481.754578 391.324707 l 478.045349 389.044037 l 476.141937 386.888672 l</path>
+    </node>
+    <node id="stuttgart hauptbahnhof (tief)" type="ipe">
+      <path fill="1.000000 1.000000 1.000000">476.141937 386.888672 m 479.419830 388.584442 l 483.129028 390.865112 l 485.032471 393.020447 l 481.754578 391.324707 l 478.045349 389.044037 l 476.141937 386.888672 l</path>
+    </node>
+    <node id="stuttgart hauptbahnhof (tief)" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">476.141937 386.888672 m 479.419830 388.584442 l 483.129028 390.865112 l 485.032471 393.020447 l 481.754578 391.324707 l 478.045349 389.044037 l 476.141937 386.888672 l</path>
+    </node>
+    <node id="stuttgart schwabstraße" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">452.052533 421.540635 m 445.918967 412.651352 l</path>
+    </node>
+    <node id="stuttgart schwabstraße" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">452.052533 421.540635 m 445.918967 412.651352 l</path>
+    </node>
+    <node id="stuttgart-bad cannstatt" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">530.739489 351.327227 m 532.308690 354.567228 l</path>
+    </node>
+    <node id="stuttgart-bad cannstatt" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">530.739489 351.327227 m 532.308690 354.567228 l</path>
+    </node>
+    <node id="stuttgart-rohr" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">381.358948 524.293823 m 383.733673 524.850952 l 384.457825 526.126099 l 382.083099 525.568970 l 381.358948 524.293823 l</path>
+    </node>
+    <node id="stuttgart-rohr" type="ipe">
+      <path fill="1.000000 1.000000 1.000000">381.358948 524.293823 m 383.733673 524.850952 l 384.457825 526.126099 l 382.083099 525.568970 l 381.358948 524.293823 l</path>
+    </node>
+    <node id="stuttgart-rohr" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">381.358948 524.293823 m 383.733673 524.850952 l 384.457825 526.126099 l 382.083099 525.568970 l 381.358948 524.293823 l</path>
+    </node>
+    <node id="stuttgart-zuffenhausen" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">458.664856 294.905548 m 462.137421 294.275513 l 464.053070 294.548767 l 460.580505 295.178802 l 458.664856 294.905548 l</path>
+    </node>
+    <node id="stuttgart-zuffenhausen" type="ipe">
+      <path fill="1.000000 1.000000 1.000000">458.664856 294.905548 m 462.137421 294.275513 l 464.053070 294.548767 l 460.580505 295.178802 l 458.664856 294.905548 l</path>
+    </node>
+    <node id="stuttgart-zuffenhausen" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">458.664856 294.905548 m 462.137421 294.275513 l 464.053070 294.548767 l 460.580505 295.178802 l 458.664856 294.905548 l</path>
+    </node>
+    <node id="waiblingen" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">643.662331 301.542463 m 644.470671 303.150750 l</path>
+    </node>
+    <node id="waiblingen" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">643.662331 301.542463 m 644.470671 303.150750 l</path>
+    </node>
+    <node id="bietigheim-bissingen" type="ipe">
+      <path fill="0.172549 0.501961 1.000000">0.9523810148239136 0 0 0.9523810148239136 422.295860664969 50.582753717102996 e</path>
+    </node>
+    <node id="filderstadt" type="ipe">
+      <path fill="1.000000 0.000000 0.000000">0.9523810148239136 0 0 0.9523810148239136 531.2160144763267 610.177433528926 e</path>
+    </node>
+    <node id="herrenberg" type="ipe">
+      <path fill="0.000000 0.600000 0.074510">0.9523810148239136 0 0 0.9523810148239136 50.0 779.5116240769016 e</path>
+    </node>
+    <node id="kirchheim (teck)" type="ipe">
+      <path fill="0.000000 0.600000 0.074510">0.9523810148239136 0 0 0.9523810148239136 838.2583125989638 676.3072817844013 e</path>
+    </node>
+    <node id="schorndorf" type="ipe">
+      <path fill="1.000000 0.000000 0.000000">0.9523810148239136 0 0 0.9523810148239136 950.0 341.5687813745643 e</path>
+    </node>
+    <node id="weil der stadt" type="ipe">
+      <path fill="0.313726 0.176471 0.086275">0.9523810148239136 0 0 0.9523810148239136 63.95566613885507 447.22144375020184 e</path>
+    </node>
+    <node id="altbach" type="ipe">
+      <path fill="0.000000 0.600000 0.074510">0.9523810148239136 0 0 0.9523810148239136 755.1920380004332 520.3038355975309 e</path>
+    </node>
+    <node id="asperg" type="ipe">
+      <path fill="0.172549 0.501961 1.000000">0.9523810148239136 0 0 0.9523810148239136 436.5338158787262 134.60740315361653 e</path>
+    </node>
+    <node id="benningen (neckar)" type="ipe">
+      <path fill="0.000000 0.360784 0.662745">0.9523810148239136 0 0 0.9523810148239136 567.680162859054 59.37738863452259 e</path>
+    </node>
+    <node id="beutelsbach" type="ipe">
+      <path fill="1.000000 0.000000 0.000000">0.9523810148239136 0 0 0.9523810148239136 759.316444243377 334.54780772267554 e</path>
+    </node>
+    <node id="burgstall (murr)" type="ipe">
+      <path fill="0.000000 0.360784 0.662745">0.9523810148239136 0 0 0.9523810148239136 737.4281836688139 91.00583805607275 e</path>
+    </node>
+    <node id="böblingen goldberg" type="ipe">
+      <path fill="0.000000 0.600000 0.074510">0.9523810148239136 0 0 0.9523810148239136 263.0427505088844 568.7952644532785 e</path>
+    </node>
+    <node id="ditzingen" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">327.537458 308.121266 m 327.258290 306.343046 l</path>
+    </node>
+    <node id="ditzingen" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">327.537458 308.121266 m 327.258290 306.343046 l</path>
+    </node>
+    <node id="echterdingen" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">466.176576 577.269269 m 465.851472 579.039667 l</path>
+    </node>
+    <node id="echterdingen" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">466.176576 577.269269 m 465.851472 579.039667 l</path>
+    </node>
+    <node id="ehningen (bei böblingen)" type="ipe">
+      <path fill="0.000000 0.600000 0.074510">0.9523810148239136 0 0 0.9523810148239136 159.15629947971553 639.4309991338615 e</path>
+    </node>
+    <node id="endersbach" type="ipe">
+      <path fill="1.000000 0.000000 0.000000">0.9523810148239136 0 0 0.9523810148239136 738.9984166477876 328.8948250875921 e</path>
+    </node>
+    <node id="erdmannhausen" type="ipe">
+      <path fill="0.000000 0.360784 0.662745">0.9523810148239136 0 0 0.9523810148239136 642.0728342003805 50.0 e</path>
+    </node>
+    <node id="esslingen (neckar)" type="ipe">
+      <path fill="0.000000 0.600000 0.074510">0.9523810148239136 0 0 0.9523810148239136 643.2522053833692 482.68666032467826 e</path>
+    </node>
+    <node id="esslingen zell" type="ipe">
+      <path fill="0.000000 0.600000 0.074510">0.9523810148239136 0 0 0.9523810148239136 724.1945261253169 511.9474739100698 e</path>
+    </node>
+    <node id="esslingen-mettingen" type="ipe">
+      <path fill="0.000000 0.600000 0.074510">0.9523810148239136 0 0 0.9523810148239136 609.8945939832037 464.82899141704627 e</path>
+    </node>
+    <node id="favoritepark" type="ipe">
+      <path fill="0.000000 0.360784 0.662745">0.9523810148239136 0 0 0.9523810148239136 481.2169192490081 130.02547920333407 e</path>
+    </node>
+    <node id="fellbach" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">603.335747 314.792711 m 602.800421 313.074158 l</path>
+    </node>
+    <node id="fellbach" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">603.335747 314.792711 m 602.800421 313.074158 l</path>
+    </node>
+    <node id="freiberg (neckar)" type="ipe">
+      <path fill="0.000000 0.360784 0.662745">0.9523810148239136 0 0 0.9523810148239136 504.1963356706327 87.92378720506818 e</path>
+    </node>
+    <node id="geradstetten" type="ipe">
+      <path fill="1.000000 0.000000 0.000000">0.9523810148239136 0 0 0.9523810148239136 832.6193168966053 345.1007257188133 e</path>
+    </node>
+    <node id="grunbach" type="ipe">
+      <path fill="1.000000 0.000000 0.000000">0.9523810148239136 0 0 0.9523810148239136 805.1721330015596 334.4097327211098 e</path>
+    </node>
+    <node id="gärtringen" type="ipe">
+      <path fill="0.000000 0.600000 0.074510">0.9523810148239136 0 0 0.9523810148239136 112.41574304455054 683.4509287341931 e</path>
+    </node>
+    <node id="hulb" type="ipe">
+      <path fill="0.000000 0.600000 0.074510">0.9523810148239136 0 0 0.9523810148239136 212.12893010630458 604.5312734847854 e</path>
+    </node>
+    <node id="höfingen" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">271.976901 325.699879 m 271.081230 324.138542 l</path>
+    </node>
+    <node id="höfingen" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">271.976901 325.699879 m 271.081230 324.138542 l</path>
+    </node>
+    <node id="kirchberg (murr)" type="ipe">
+      <path fill="0.000000 0.360784 0.662745">0.9523810148239136 0 0 0.9523810148239136 680.5740782628353 68.36549094264984 e</path>
+    </node>
+    <node id="kirchheim (teck)-ötlingen" type="ipe">
+      <path fill="0.000000 0.600000 0.074510">0.9523810148239136 0 0 0.9523810148239136 800.9174394933054 648.5105624469109 e</path>
+    </node>
+    <node id="korntal" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">401.033688 302.141697 m 400.495377 300.424076 l</path>
+    </node>
+    <node id="korntal" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">401.033688 302.141697 m 400.495377 300.424076 l</path>
+    </node>
+    <node id="kornwestheim personenbahnhof" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">479.364169 227.319460 m 481.128932 227.673879 l</path>
+    </node>
+    <node id="kornwestheim personenbahnhof" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">479.364169 227.319460 m 481.128932 227.673879 l</path>
+    </node>
+    <node id="leinfelden" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">430.052952 567.749424 m 429.282945 569.376412 l</path>
+    </node>
+    <node id="leinfelden" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">430.052952 567.749424 m 429.282945 569.376412 l</path>
+    </node>
+    <node id="leonberg" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">241.491061 357.550729 m 240.598059 355.987864 l</path>
+    </node>
+    <node id="leonberg" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">241.491061 357.550729 m 240.598059 355.987864 l</path>
+    </node>
+    <node id="magstadt" type="ipe">
+      <path fill="0.501961 0.501961 0.000000">0.9523810148239136 0 0 0.9523810148239136 188.97172585386207 487.4196502747877 e</path>
+    </node>
+    <node id="maichingen" type="ipe">
+      <path fill="0.501961 0.501961 0.000000">0.9523810148239136 0 0 0.9523810148239136 194.74372313956604 517.2859955293198 e</path>
+    </node>
+    <node id="maichingen nord" type="ipe">
+      <path fill="0.501961 0.501961 0.000000">0.9523810148239136 0 0 0.9523810148239136 208.0547387468494 505.3824633338012 e</path>
+    </node>
+    <node id="malmsheim" type="ipe">
+      <path fill="0.313726 0.176471 0.086275">0.9523810148239136 0 0 0.9523810148239136 106.704817914476 414.03395578584536 e</path>
+    </node>
+    <node id="marbach (neckar)" type="ipe">
+      <path fill="0.000000 0.360784 0.662745">0.9523810148239136 0 0 0.9523810148239136 594.2709794164327 59.79891714763529 e</path>
+    </node>
+    <node id="maubach" type="ipe">
+      <path fill="1.000000 0.611765 0.000000">0.9523810148239136 0 0 0.9523810148239136 805.5507803664403 95.66385675976247 e</path>
+    </node>
+    <node id="nellmersbach" type="ipe">
+      <path fill="1.000000 0.611765 0.000000">0.9523810148239136 0 0 0.9523810148239136 799.7869260347877 142.65573412730745 e</path>
+    </node>
+    <node id="neustadt-hohenacker" type="ipe">
+      <path fill="1.000000 0.611765 0.000000">0.9523810148239136 0 0 0.9523810148239136 676.0655960189404 234.09998203333402 e</path>
+    </node>
+    <node id="neuwirtshaus (porscheplatz)" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">441.547609 287.034962 m 441.353997 285.245405 l</path>
+    </node>
+    <node id="neuwirtshaus (porscheplatz)" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">441.547609 287.034962 m 441.353997 285.245405 l</path>
+    </node>
+    <node id="nufringen" type="ipe">
+      <path fill="0.000000 0.600000 0.074510">0.9523810148239136 0 0 0.9523810148239136 87.14001357159543 725.4771477271967 e</path>
+    </node>
+    <node id="oberaichen" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">409.357886 550.391182 m 408.134084 551.711147 l</path>
+    </node>
+    <node id="oberaichen" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">409.357886 550.391182 m 408.134084 551.711147 l</path>
+    </node>
+    <node id="oberesslingen" type="ipe">
+      <path fill="0.000000 0.600000 0.074510">0.9523810148239136 0 0 0.9523810148239136 679.8222121691442 500.41368104371145 e</path>
+    </node>
+    <node id="plochingen" type="ipe">
+      <path fill="0.000000 0.600000 0.074510">0.9523810148239136 0 0 0.9523810148239136 793.7502827414104 535.4657613876193 e</path>
+    </node>
+    <node id="renningen süd" type="ipe">
+      <path fill="0.501961 0.501961 0.000000">0.9523810148239136 0 0 0.9523810148239136 142.7075322325199 432.03010648019375 e</path>
+    </node>
+    <node id="rommelshausen" type="ipe">
+      <path fill="1.000000 0.000000 0.000000">0.9523810148239136 0 0 0.9523810148239136 669.0626555077956 323.88869928040674 e</path>
+    </node>
+    <node id="rutesheim" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">183.367302 376.329564 m 182.535435 374.733319 l</path>
+    </node>
+    <node id="rutesheim" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">183.367302 376.329564 m 182.535435 374.733319 l</path>
+    </node>
+    <node id="schwaikheim" type="ipe">
+      <path fill="1.000000 0.611765 0.000000">0.9523810148239136 0 0 0.9523810148239136 717.7276634245526 214.94281568894206 e</path>
+    </node>
+    <node id="sindelfingen" type="ipe">
+      <path fill="0.501961 0.501961 0.000000">0.9523810148239136 0 0 0.9523810148239136 234.72291336801464 553.7163665205956 e</path>
+    </node>
+    <node id="stetten-beinstein" type="ipe">
+      <path fill="1.000000 0.000000 0.000000">0.9523810148239136 0 0 0.9523810148239136 714.9862022166957 331.1350342027232 e</path>
+    </node>
+    <node id="stuttgart feuersee" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">458.364637 407.605046 m 463.685577 417.003321 l</path>
+    </node>
+    <node id="stuttgart feuersee" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">458.364637 407.605046 m 463.685577 417.003321 l</path>
+    </node>
+    <node id="stuttgart neckarpark (mercedes-benz)" type="ipe">
+      <path fill="0.000000 0.600000 0.074510">0.9523810148239136 0 0 0.9523810148239136 563.0888939154106 372.62473702886115 e</path>
+    </node>
+    <node id="stuttgart nord" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">488.330020 348.644238 m 493.579050 347.376292 l</path>
+    </node>
+    <node id="stuttgart nord" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">488.330020 348.644238 m 493.579050 347.376292 l</path>
+    </node>
+    <node id="stuttgart nürnberger straße" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">555.049074 343.564150 m 554.025796 342.083305 l</path>
+    </node>
+    <node id="stuttgart nürnberger straße" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">555.049074 343.564150 m 554.025796 342.083305 l</path>
+    </node>
+    <node id="stuttgart stadtmitte" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">466.524293 401.309273 m 474.651007 408.422394 l</path>
+    </node>
+    <node id="stuttgart stadtmitte" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">466.524293 401.309273 m 474.651007 408.422394 l</path>
+    </node>
+    <node id="stuttgart universität" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">378.038364 467.464977 m 380.829765 469.738318 l</path>
+    </node>
+    <node id="stuttgart universität" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">378.038364 467.464977 m 380.829765 469.738318 l</path>
+    </node>
+    <node id="stuttgart österfeld" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">392.400250 484.900855 m 395.880230 483.979044 l</path>
+    </node>
+    <node id="stuttgart österfeld" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">392.400250 484.900855 m 395.880230 483.979044 l</path>
+    </node>
+    <node id="stuttgart-feuerbach" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">463.178678 328.969286 m 467.899359 326.347231 l</path>
+    </node>
+    <node id="stuttgart-feuerbach" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">463.178678 328.969286 m 467.899359 326.347231 l</path>
+    </node>
+    <node id="stuttgart-obertürkheim" type="ipe">
+      <path fill="0.000000 0.600000 0.074510">0.9523810148239136 0 0 0.9523810148239136 599.6005428635913 434.8548471026298 e</path>
+    </node>
+    <node id="stuttgart-sommerrain" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">572.942162 325.418438 m 572.021421 323.871753 l</path>
+    </node>
+    <node id="stuttgart-sommerrain" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">572.942162 325.418438 m 572.021421 323.871753 l</path>
+    </node>
+    <node id="stuttgart-untertürkheim" type="ipe">
+      <path fill="0.000000 0.600000 0.074510">0.9523810148239136 0 0 0.9523810148239136 575.7064012666513 397.90682604869767 e</path>
+    </node>
+    <node id="stuttgart-vaihingen" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">387.905907 506.657291 m 391.376608 507.613445 l</path>
+    </node>
+    <node id="stuttgart-vaihingen" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">387.905907 506.657291 m 391.376608 507.613445 l</path>
+    </node>
+    <node id="tamm (württ)" type="ipe">
+      <path fill="0.172549 0.501961 1.000000">0.9523810148239136 0 0 0.9523810148239136 406.50124406241406 104.99165561438444 e</path>
+    </node>
+    <node id="weiler (rems)" type="ipe">
+      <path fill="1.000000 0.000000 0.000000">0.9523810148239136 0 0 0.9523810148239136 917.3046821985807 355.18691500298655 e</path>
+    </node>
+    <node id="weilimdorf" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">364.147838 311.287173 m 364.002354 309.493062 l</path>
+    </node>
+    <node id="weilimdorf" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">364.147838 311.287173 m 364.002354 309.493062 l</path>
+    </node>
+    <node id="wendlingen (neckar)" type="ipe">
+      <path fill="0.000000 0.600000 0.074510">0.9523810148239136 0 0 0.9523810148239136 743.6086858176232 615.4533448594785 e</path>
+    </node>
+    <node id="wernau" type="ipe">
+      <path fill="0.000000 0.600000 0.074510">0.9523810148239136 0 0 0.9523810148239136 798.5057679258042 572.7430107041813 e</path>
+    </node>
+    <node id="winnenden" type="ipe">
+      <path fill="1.000000 0.611765 0.000000">0.9523810148239136 0 0 0.9523810148239136 768.4514815652103 191.27511408134887 e</path>
+    </node>
+    <node id="winterbach (b schorndorf)" type="ipe">
+      <path fill="1.000000 0.000000 0.000000">0.9523810148239136 0 0 0.9523810148239136 888.8939154037486 359.2582009930427 e</path>
+    </node>
+  </geometricembedding>
+</metromap>
