@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metromap version="0.0.1">
+  <description>a metro map in the new format</description>
+  <graph id="g1">
+    <node id="16th street mission">16th Street Mission</node>
+    <node id="19th street oakland">19th Street Oakland</node>
+    <node id="24th street mission">24th Street Mission</node>
+    <node id="ashby">Ashby</node>
+    <node id="balboa park">Balboa Park</node>
+    <node id="bay fair">Bay Fair</node>
+    <node id="castro valley">Castro Valley</node>
+    <node id="civic center">Civic Center</node>
+    <node id="coliseum">Coliseum</node>
+    <node id="colma">Colma</node>
+    <node id="concord">Concord</node>
+    <node id="daly city">Daly City</node>
+    <node id="downtown berkeley">Downtown Berkeley</node>
+    <node id="dublin/pleasanton">Dublin/Pleasanton</node>
+    <node id="el cerrito plaza">El Cerrito Plaza</node>
+    <node id="el cerrito del norte">El Cerrito del Norte</node>
+    <node id="embarcadero">Embarcadero</node>
+    <node id="fremont">Fremont</node>
+    <node id="fruitvale">Fruitvale</node>
+    <node id="glen park">Glen Park</node>
+    <node id="hayward">Hayward</node>
+    <node id="lafayette">Lafayette</node>
+    <node id="lake merritt">Lake Merritt</node>
+    <node id="macarthur">MacArthur</node>
+    <node id="millbrae">Millbrae</node>
+    <node id="montgomery street">Montgomery Street</node>
+    <node id="north berkeley">North Berkeley</node>
+    <node id="north concord / martinez">North Concord / Martinez</node>
+    <node id="oakland city center - 12th street">Oakland City Center - 12th Street</node>
+    <node id="oakland international airport">Oakland International Airport</node>
+    <node id="orinda">Orinda</node>
+    <node id="pittsburg/bay point">Pittsburg/Bay Point</node>
+    <node id="pleasant hill / contra costa centre">Pleasant Hill / Contra Costa Centre</node>
+    <node id="powell street">Powell Street</node>
+    <node id="richmond">Richmond</node>
+    <node id="rockridge">Rockridge</node>
+    <node id="san bruno">San Bruno</node>
+    <node id="san francisco international airport">San Francisco International Airport</node>
+    <node id="san leandro">San Leandro</node>
+    <node id="south hayward">South Hayward</node>
+    <node id="south san francisco">South San Francisco</node>
+    <node id="union city">Union City</node>
+    <node id="walnut creek">Walnut Creek</node>
+    <node id="warm springs/south fremont">Warm Springs/South Fremont</node>
+    <node id="west dublin/pleasanton">West Dublin/Pleasanton</node>
+    <node id="west oakland">West Oakland</node>
+    <metroline color="#00aeef" id="blue">Blue</metroline>
+    <metroline color="#4db848" id="green">Green</metroline>
+    <metroline color="#faa61a" id="orange">Orange</metroline>
+    <metroline color="#ed1c24" id="red">Red</metroline>
+    <metroline color="#c0c0c0" id="silver">Silver</metroline>
+    <metroline color="#ffe800" id="yellow">Yellow</metroline>
+    <edge id="e1" source="dublin/pleasanton" target="west dublin/pleasanton">blue</edge>
+    <edge id="e2" source="west dublin/pleasanton" target="castro valley">blue</edge>
+    <edge id="e3" source="castro valley" target="bay fair">blue</edge>
+    <edge id="e4" source="bay fair" target="san leandro">blue, green, orange</edge>
+    <edge id="e5" source="san leandro" target="coliseum">blue, green, orange</edge>
+    <edge id="e6" source="coliseum" target="fruitvale">blue, green, orange</edge>
+    <edge id="e7" source="fruitvale" target="lake merritt">blue, green, orange</edge>
+    <edge id="e8" source="lake merritt" target="west oakland">blue, green</edge>
+    <edge id="e9" source="west oakland" target="embarcadero">blue, green, red, yellow</edge>
+    <edge id="e10" source="embarcadero" target="montgomery street">blue, green, red, yellow</edge>
+    <edge id="e11" source="montgomery street" target="powell street">blue, green, red, yellow</edge>
+    <edge id="e12" source="powell street" target="civic center">blue, green, red, yellow</edge>
+    <edge id="e13" source="civic center" target="16th street mission">blue, green, red, yellow</edge>
+    <edge id="e14" source="16th street mission" target="24th street mission">blue, green, red, yellow</edge>
+    <edge id="e15" source="24th street mission" target="glen park">blue, green, red, yellow</edge>
+    <edge id="e16" source="glen park" target="balboa park">blue, green, red, yellow</edge>
+    <edge id="e17" source="balboa park" target="daly city">blue, green, red, yellow</edge>
+    <edge id="e18" source="warm springs/south fremont" target="fremont">green, orange</edge>
+    <edge id="e19" source="fremont" target="union city">green, orange</edge>
+    <edge id="e20" source="union city" target="south hayward">green, orange</edge>
+    <edge id="e21" source="south hayward" target="hayward">green, orange</edge>
+    <edge id="e22" source="hayward" target="bay fair">green, orange</edge>
+    <edge id="e23" source="lake merritt" target="oakland city center - 12th street">orange</edge>
+    <edge id="e24" source="oakland city center - 12th street" target="19th street oakland">orange, red, yellow</edge>
+    <edge id="e25" source="19th street oakland" target="macarthur">orange, red, yellow</edge>
+    <edge id="e26" source="macarthur" target="ashby">orange, red</edge>
+    <edge id="e27" source="ashby" target="downtown berkeley">orange, red</edge>
+    <edge id="e28" source="downtown berkeley" target="north berkeley">orange, red</edge>
+    <edge id="e29" source="north berkeley" target="el cerrito plaza">orange, red</edge>
+    <edge id="e30" source="el cerrito plaza" target="el cerrito del norte">orange, red</edge>
+    <edge id="e31" source="el cerrito del norte" target="richmond">orange, red</edge>
+    <edge id="e32" source="millbrae" target="san bruno">red</edge>
+    <edge id="e33" source="san bruno" target="south san francisco">red, yellow</edge>
+    <edge id="e34" source="south san francisco" target="colma">red, yellow</edge>
+    <edge id="e35" source="colma" target="daly city">red, yellow</edge>
+    <edge id="e36" source="west oakland" target="oakland city center - 12th street">red, yellow</edge>
+    <edge id="e37" source="coliseum" target="oakland international airport">silver</edge>
+    <edge id="e38" source="pittsburg/bay point" target="north concord / martinez">yellow</edge>
+    <edge id="e39" source="north concord / martinez" target="concord">yellow</edge>
+    <edge id="e40" source="concord" target="pleasant hill / contra costa centre">yellow</edge>
+    <edge id="e41" source="pleasant hill / contra costa centre" target="walnut creek">yellow</edge>
+    <edge id="e42" source="walnut creek" target="lafayette">yellow</edge>
+    <edge id="e43" source="lafayette" target="orinda">yellow</edge>
+    <edge id="e44" source="orinda" target="rockridge">yellow</edge>
+    <edge id="e45" source="rockridge" target="macarthur">yellow</edge>
+    <edge id="e46" source="san bruno" target="san francisco international airport">yellow</edge>
+    <edge id="e47" source="san francisco international airport" target="millbrae">yellow</edge>
+  </graph>
+  <geometricembedding height="600" id="ge1" width="700">
+    <metroline edge="e1" id="blue" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.682353 0.937255">591.604258 417.291664 m 539.706091 423.956885 l</path>
+    </metroline>
+    <metroline edge="e2" id="blue" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.682353 0.937255">539.706091 423.956885 m 491.131036 430.161329 l</path>
+    </metroline>
+    <metroline edge="e3" id="blue" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.682353 0.937255">491.131036 430.161329 m 425.295142 432.179865 l</path>
+    </metroline>
+    <metroline edge="e4" id="blue" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.682353 0.937255">426.532600 430.872693 m 395.812402 401.790862 l</path>
+    </metroline>
+    <metroline edge="e4" id="green" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.301961 0.721569 0.282353">425.295142 432.179865 m 394.574944 403.098034 l</path>
+    </metroline>
+    <metroline edge="e4" id="orange" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.980392 0.650980 0.101961">424.057684 433.487037 m 393.337486 404.405206 l</path>
+    </metroline>
+    <metroline edge="e5" id="blue" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.682353 0.937255">395.812402 401.790862 m 365.092205 372.709031 l</path>
+    </metroline>
+    <metroline edge="e5" id="green" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.301961 0.721569 0.282353">394.574944 403.098034 m 363.854747 374.016203 l</path>
+    </metroline>
+    <metroline edge="e5" id="orange" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.980392 0.650980 0.101961">393.337486 404.405206 m 362.617289 375.323375 l</path>
+    </metroline>
+    <metroline edge="e6" id="blue" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.682353 0.937255">365.092205 372.709031 m 334.372007 343.627201 l</path>
+    </metroline>
+    <metroline edge="e6" id="green" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.301961 0.721569 0.282353">363.854747 374.016203 m 333.134549 344.934373 l</path>
+    </metroline>
+    <metroline edge="e6" id="orange" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.980392 0.650980 0.101961">362.617289 375.323375 m 331.897091 346.241545 l</path>
+    </metroline>
+    <metroline edge="e7" id="blue" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.682353 0.937255">334.372007 343.627201 m 303.651809 314.545370 l</path>
+    </metroline>
+    <metroline edge="e7" id="green" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.301961 0.721569 0.282353">333.134549 344.934373 m 302.414351 315.852542 l</path>
+    </metroline>
+    <metroline edge="e7" id="orange" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.980392 0.650980 0.101961">331.897091 346.241545 m 301.176893 317.159714 l</path>
+    </metroline>
+    <metroline edge="e8" id="blue" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.682353 0.937255">302.644722 314.982525 m 253.704607 302.023694 l</path>
+    </metroline>
+    <metroline edge="e8" id="green" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.301961 0.721569 0.282353">302.183980 316.722559 m 253.243865 303.763728 l</path>
+    </metroline>
+    <metroline edge="e9" id="blue" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.682353 0.937255">253.230262 300.204756 m 191.389211 305.815710 l</path>
+    </metroline>
+    <metroline edge="e9" id="green" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.301961 0.721569 0.282353">253.392911 301.997393 m 191.551860 307.608347 l</path>
+    </metroline>
+    <metroline edge="e9" id="red" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.929412 0.109804 0.141176">253.555561 303.790029 m 191.714510 309.400983 l</path>
+    </metroline>
+    <metroline edge="e9" id="yellow" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.909804 0.000000">253.718210 305.582666 m 191.877159 311.193620 l</path>
+    </metroline>
+    <metroline edge="e10" id="blue" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.682353 0.937255">189.432637 306.940187 m 177.529721 323.682474 l</path>
+    </metroline>
+    <metroline edge="e10" id="green" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.301961 0.721569 0.282353">190.899669 307.983172 m 178.996753 324.725459 l</path>
+    </metroline>
+    <metroline edge="e10" id="red" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.929412 0.109804 0.141176">192.366701 309.026158 m 180.463785 325.768445 l</path>
+    </metroline>
+    <metroline edge="e10" id="yellow" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.909804 0.000000">193.833733 310.069143 m 181.930817 326.811430 l</path>
+    </metroline>
+    <metroline edge="e11" id="blue" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.682353 0.937255">177.529721 323.682474 m 165.626804 340.424762 l</path>
+    </metroline>
+    <metroline edge="e11" id="green" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.301961 0.721569 0.282353">178.996753 324.725459 m 167.093836 341.467747 l</path>
+    </metroline>
+    <metroline edge="e11" id="red" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.929412 0.109804 0.141176">180.463785 325.768445 m 168.560868 342.510733 l</path>
+    </metroline>
+    <metroline edge="e11" id="yellow" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.909804 0.000000">181.930817 326.811430 m 170.027900 343.553718 l</path>
+    </metroline>
+    <metroline edge="e12" id="blue" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.682353 0.937255">165.626804 340.424762 m 153.723888 357.167050 l</path>
+    </metroline>
+    <metroline edge="e12" id="green" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.301961 0.721569 0.282353">167.093836 341.467747 m 155.190920 358.210035 l</path>
+    </metroline>
+    <metroline edge="e12" id="red" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.929412 0.109804 0.141176">168.560868 342.510733 m 156.657952 359.253021 l</path>
+    </metroline>
+    <metroline edge="e12" id="yellow" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.909804 0.000000">170.027900 343.553718 m 158.124984 360.296006 l</path>
+    </metroline>
+    <metroline edge="e13" id="blue" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.682353 0.937255">153.723888 357.167050 m 141.820972 373.909337 l</path>
+    </metroline>
+    <metroline edge="e13" id="green" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.301961 0.721569 0.282353">155.190920 358.210035 m 143.288004 374.952322 l</path>
+    </metroline>
+    <metroline edge="e13" id="red" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.929412 0.109804 0.141176">156.657952 359.253021 m 144.755036 375.995308 l</path>
+    </metroline>
+    <metroline edge="e13" id="yellow" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.909804 0.000000">158.124984 360.296006 m 146.222068 377.038293 l</path>
+    </metroline>
+    <metroline edge="e14" id="blue" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.682353 0.937255">141.820972 373.909337 m 129.918056 390.651625 l</path>
+    </metroline>
+    <metroline edge="e14" id="green" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.301961 0.721569 0.282353">143.288004 374.952322 m 131.385088 391.694610 l</path>
+    </metroline>
+    <metroline edge="e14" id="red" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.929412 0.109804 0.141176">144.755036 375.995308 m 132.852120 392.737596 l</path>
+    </metroline>
+    <metroline edge="e14" id="yellow" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.909804 0.000000">146.222068 377.038293 m 134.319152 393.780581 l</path>
+    </metroline>
+    <metroline edge="e15" id="blue" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.682353 0.937255">129.918057 390.651625 m 118.015140 407.393912 l</path>
+    </metroline>
+    <metroline edge="e15" id="green" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.301961 0.721569 0.282353">131.385088 391.694610 m 119.482171 408.436897 l</path>
+    </metroline>
+    <metroline edge="e15" id="red" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.929412 0.109804 0.141176">132.852120 392.737596 m 120.949203 409.479883 l</path>
+    </metroline>
+    <metroline edge="e15" id="yellow" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.909804 0.000000">134.319151 393.780581 m 122.416234 410.522868 l</path>
+    </metroline>
+    <metroline edge="e16" id="blue" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.682353 0.937255">118.015139 407.393912 m 106.112223 424.136200 l</path>
+    </metroline>
+    <metroline edge="e16" id="green" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.301961 0.721569 0.282353">119.482171 408.436897 m 107.579255 425.179185 l</path>
+    </metroline>
+    <metroline edge="e16" id="red" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.929412 0.109804 0.141176">120.949203 409.479883 m 109.046287 426.222171 l</path>
+    </metroline>
+    <metroline edge="e16" id="yellow" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.909804 0.000000">122.416235 410.522868 m 110.513319 427.265156 l</path>
+    </metroline>
+    <metroline edge="e17" id="blue" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.682353 0.937255">106.112223 424.136200 m 94.209307 440.878488 l</path>
+    </metroline>
+    <metroline edge="e17" id="green" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.301961 0.721569 0.282353">107.579255 425.179185 m 95.676339 441.921473 l</path>
+    </metroline>
+    <metroline edge="e17" id="red" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.929412 0.109804 0.141176">109.046287 426.222171 m 97.143371 442.964459 l</path>
+    </metroline>
+    <metroline edge="e17" id="yellow" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.909804 0.000000">110.513319 427.265156 m 98.610403 444.007444 l</path>
+    </metroline>
+    <metroline edge="e18" id="green" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.301961 0.721569 0.282353">534.624811 550.091778 m 512.891552 526.387751 l</path>
+    </metroline>
+    <metroline edge="e18" id="orange" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.980392 0.650980 0.101961">533.298061 551.308222 m 511.564802 527.604195 l</path>
+    </metroline>
+    <metroline edge="e19" id="green" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.301961 0.721569 0.282353">512.891552 526.387751 m 491.158294 502.683724 l</path>
+    </metroline>
+    <metroline edge="e19" id="orange" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.980392 0.650980 0.101961">511.564802 527.604195 m 489.831544 503.900168 l</path>
+    </metroline>
+    <metroline edge="e20" id="green" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.301961 0.721569 0.282353">491.158294 502.683724 m 469.425035 478.979697 l</path>
+    </metroline>
+    <metroline edge="e20" id="orange" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.980392 0.650980 0.101961">489.831544 503.900168 m 468.098285 480.196141 l</path>
+    </metroline>
+    <metroline edge="e21" id="green" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.301961 0.721569 0.282353">469.425035 478.979697 m 447.691776 455.275670 l</path>
+    </metroline>
+    <metroline edge="e21" id="orange" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.980392 0.650980 0.101961">468.098285 480.196141 m 446.365026 456.492114 l</path>
+    </metroline>
+    <metroline edge="e22" id="green" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.301961 0.721569 0.282353">447.691776 455.275670 m 425.958517 431.571643 l</path>
+    </metroline>
+    <metroline edge="e22" id="orange" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.980392 0.650980 0.101961">446.365026 456.492114 m 424.631767 432.788087 l</path>
+    </metroline>
+    <metroline edge="e23" id="orange" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.980392 0.650980 0.101961">302.414351 315.852542 m 291.103870 287.645713 l</path>
+    </metroline>
+    <metroline edge="e24" id="orange" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.980392 0.650980 0.101961">292.903708 287.669890 m 293.108376 272.433540 l</path>
+    </metroline>
+    <metroline edge="e24" id="red" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.929412 0.109804 0.141176">291.103870 287.645713 m 291.308538 272.409363 l</path>
+    </metroline>
+    <metroline edge="e24" id="yellow" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.909804 0.000000">289.304032 287.621536 m 289.508700 272.385186 l</path>
+    </metroline>
+    <metroline edge="e25" id="orange" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.980392 0.650980 0.101961">293.107740 272.462963 m 293.614406 255.455692 l</path>
+    </metroline>
+    <metroline edge="e25" id="red" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.929412 0.109804 0.141176">291.308538 272.409363 m 291.815204 255.402092 l</path>
+    </metroline>
+    <metroline edge="e25" id="yellow" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.909804 0.000000">289.509336 272.355763 m 290.016002 255.348492 l</path>
+    </metroline>
+    <metroline edge="e26" id="orange" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.980392 0.650980 0.101961">292.583774 254.933797 m 280.849216 235.674920 l</path>
+    </metroline>
+    <metroline edge="e26" id="red" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.929412 0.109804 0.141176">291.046634 255.870387 m 279.312076 236.611510 l</path>
+    </metroline>
+    <metroline edge="e27" id="orange" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.980392 0.650980 0.101961">280.803700 235.607311 m 264.103684 213.075286 l</path>
+    </metroline>
+    <metroline edge="e27" id="red" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.929412 0.109804 0.141176">279.357592 236.679119 m 262.657576 214.147094 l</path>
+    </metroline>
+    <metroline edge="e28" id="orange" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.980392 0.650980 0.101961">264.103684 213.075286 m 247.403668 190.543262 l</path>
+    </metroline>
+    <metroline edge="e28" id="red" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.929412 0.109804 0.141176">262.657576 214.147094 m 245.957560 191.615070 l</path>
+    </metroline>
+    <metroline edge="e29" id="orange" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.980392 0.650980 0.101961">247.403668 190.543262 m 230.703652 168.011237 l</path>
+    </metroline>
+    <metroline edge="e29" id="red" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.929412 0.109804 0.141176">245.957560 191.615070 m 229.257544 169.083045 l</path>
+    </metroline>
+    <metroline edge="e30" id="orange" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.980392 0.650980 0.101961">230.703652 168.011237 m 214.003636 145.479213 l</path>
+    </metroline>
+    <metroline edge="e30" id="red" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.929412 0.109804 0.141176">229.257544 169.083045 m 212.557528 146.551021 l</path>
+    </metroline>
+    <metroline edge="e31" id="orange" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.980392 0.650980 0.101961">214.003636 145.479213 m 197.303620 122.947189 l</path>
+    </metroline>
+    <metroline edge="e31" id="red" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.929412 0.109804 0.141176">212.557528 146.551021 m 195.857512 124.018997 l</path>
+    </metroline>
+    <metroline edge="e32" id="red" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.929412 0.109804 0.141176">194.741891 566.624626 m 160.095200 513.476695 l</path>
+    </metroline>
+    <metroline edge="e33" id="red" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.929412 0.109804 0.141176">160.684577 512.796522 m 136.899645 492.186640 l</path>
+    </metroline>
+    <metroline edge="e33" id="yellow" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.909804 0.000000">159.505823 514.156868 m 135.720891 493.546986 l</path>
+    </metroline>
+    <metroline edge="e34" id="red" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.929412 0.109804 0.141176">136.945213 492.228970 m 116.557794 471.934180 l</path>
+    </metroline>
+    <metroline edge="e34" id="yellow" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.909804 0.000000">135.675323 493.504656 m 115.287904 473.209866 l</path>
+    </metroline>
+    <metroline edge="e35" id="red" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.929412 0.109804 0.141176">116.678259 472.082784 m 97.165265 441.953727 l</path>
+    </metroline>
+    <metroline edge="e35" id="yellow" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.909804 0.000000">115.167439 473.061262 m 95.654445 442.932205 l</path>
+    </metroline>
+    <metroline edge="e36" id="red" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.929412 0.109804 0.141176">253.812232 303.727832 m 291.441866 288.479834 l</path>
+    </metroline>
+    <metroline edge="e36" id="yellow" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.909804 0.000000">253.136240 302.059590 m 290.765874 286.811592 l</path>
+    </metroline>
+    <metroline edge="e37" id="silver" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.752941 0.752941 0.752941">363.854747 374.016203 m 341.615516 393.843526 l</path>
+    </metroline>
+    <metroline edge="e38" id="yellow" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.909804 0.000000">550.975764 28.890761 m 518.580694 57.204678 l</path>
+    </metroline>
+    <metroline edge="e39" id="yellow" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.909804 0.000000">518.580694 57.204678 m 486.185624 85.518594 l</path>
+    </metroline>
+    <metroline edge="e40" id="yellow" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.909804 0.000000">486.185624 85.518594 m 453.790554 113.832510 l</path>
+    </metroline>
+    <metroline edge="e41" id="yellow" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.909804 0.000000">453.790554 113.832510 m 421.395484 142.146426 l</path>
+    </metroline>
+    <metroline edge="e42" id="yellow" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.909804 0.000000">421.395484 142.146426 m 389.000414 170.460343 l</path>
+    </metroline>
+    <metroline edge="e43" id="yellow" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.909804 0.000000">389.000414 170.460343 m 356.605344 198.774259 l</path>
+    </metroline>
+    <metroline edge="e44" id="yellow" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.909804 0.000000">356.605344 198.774259 m 324.210274 227.088175 l</path>
+    </metroline>
+    <metroline edge="e45" id="yellow" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.909804 0.000000">324.210274 227.088175 m 291.815204 255.402092 l</path>
+    </metroline>
+    <metroline edge="e46" id="yellow" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.909804 0.000000">160.095200 513.476695 m 195.486757 531.631810 l</path>
+    </metroline>
+    <metroline edge="e47" id="yellow" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.909804 0.000000">195.486757 531.631810 m 194.741891 566.624626 l</path>
+    </metroline>
+    <node id="bay fair" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">424.305359 433.683289 m 424.656738 432.814240 l 426.284943 430.676422 l 425.933533 431.545471 l 424.305359 433.683289 l</path>
+    </node>
+    <node id="bay fair" type="ipe">
+      <path fill="1.000000 1.000000 1.000000">424.305359 433.683289 m 424.656738 432.814240 l 426.284943 430.676422 l 425.933533 431.545471 l 424.305359 433.683289 l</path>
+    </node>
+    <node id="bay fair" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">424.305359 433.683289 m 424.656738 432.814240 l 426.284943 430.676422 l 425.933533 431.545471 l 424.305359 433.683289 l</path>
+    </node>
+    <node id="coliseum" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">362.617289 375.323375 m 365.092205 372.709031 l</path>
+    </node>
+    <node id="coliseum" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">362.617289 375.323375 m 365.092205 372.709031 l</path>
+    </node>
+    <node id="daly city" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">99.074956 442.010258 m 93.744754 442.875674 l</path>
+    </node>
+    <node id="daly city" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">99.074956 442.010258 m 93.744754 442.875674 l</path>
+    </node>
+    <node id="lake merritt" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">301.380038 317.325700 m 303.448664 314.379384 l</path>
+    </node>
+    <node id="lake merritt" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">301.380038 317.325700 m 303.448664 314.379384 l</path>
+    </node>
+    <node id="macarthur" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">290.022247 255.243179 m 292.674957 255.135925 l 293.608185 255.561005 l 290.955475 255.668259 l 290.022247 255.243179 l</path>
+    </node>
+    <node id="macarthur" type="ipe">
+      <path fill="1.000000 1.000000 1.000000">290.022247 255.243179 m 292.674957 255.135925 l 293.608185 255.561005 l 290.955475 255.668259 l 290.022247 255.243179 l</path>
+    </node>
+    <node id="macarthur" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">290.022247 255.243179 m 292.674957 255.135925 l 293.608185 255.561005 l 290.955475 255.668259 l 290.022247 255.243179 l</path>
+    </node>
+    <node id="millbrae" type="ipe">
+      <path fill="0.000000 0.000000 0.000000">1.3333333730697632 0 0 1.3333333730697632 194.741891 566.624626 e</path>
+    </node>
+    <node id="millbrae" type="ipe">
+      <path fill="1.000000 1.000000 1.000000">0.9523810148239136 0 0 0.9523810148239136 194.741891 566.624626 e</path>
+    </node>
+    <node id="oakland city center - 12th street" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">289.572906 286.699036 m 290.539185 286.944885 l 292.634827 288.592377 l 291.668549 288.346527 l 289.572906 286.699036 l</path>
+    </node>
+    <node id="oakland city center - 12th street" type="ipe">
+      <path fill="1.000000 1.000000 1.000000">289.572906 286.699036 m 290.539185 286.944885 l 292.634827 288.592377 l 291.668549 288.346527 l 289.572906 286.699036 l</path>
+    </node>
+    <node id="oakland city center - 12th street" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">289.572906 286.699036 m 290.539185 286.944885 l 292.634827 288.592377 l 291.668549 288.346527 l 289.572906 286.699036 l</path>
+    </node>
+    <node id="san bruno" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">160.717381 512.826395 m 159.473019 514.126995 l</path>
+    </node>
+    <node id="san bruno" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">160.717381 512.826395 m 159.473019 514.126995 l</path>
+    </node>
+    <node id="west oakland" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">253.289520 302.012878 m 253.301086 300.199280 l 253.533798 301.995697 l 253.658951 303.774567 l 253.647385 305.588165 l 253.414673 303.791748 l 253.289520 302.012878 l</path>
+    </node>
+    <node id="west oakland" type="ipe">
+      <path fill="1.000000 1.000000 1.000000">253.289520 302.012878 m 253.301086 300.199280 l 253.533798 301.995697 l 253.658951 303.774567 l 253.647385 305.588165 l 253.414673 303.791748 l 253.289520 302.012878 l</path>
+    </node>
+    <node id="west oakland" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">253.289520 302.012878 m 253.301086 300.199280 l 253.533798 301.995697 l 253.658951 303.774567 l 253.647385 305.588165 l 253.414673 303.791748 l 253.289520 302.012878 l</path>
+    </node>
+    <node id="dublin/pleasanton" type="ipe">
+      <path fill="0.000000 0.682353 0.937255">0.9523810148239136 0 0 0.9523810148239136 591.604258 417.291664 e</path>
+    </node>
+    <node id="oakland international airport" type="ipe">
+      <path fill="0.752941 0.752941 0.752941">0.9523810148239136 0 0 0.9523810148239136 341.615516 393.843526 e</path>
+    </node>
+    <node id="pittsburg/bay point" type="ipe">
+      <path fill="1.000000 0.909804 0.000000">0.9523810148239136 0 0 0.9523810148239136 550.975764 28.890761 e</path>
+    </node>
+    <node id="richmond" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">195.857512 124.018997 m 197.303620 122.947189 l</path>
+    </node>
+    <node id="richmond" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">195.857512 124.018997 m 197.303620 122.947189 l</path>
+    </node>
+    <node id="warm springs/south fremont" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">534.624811 550.091778 m 533.298061 551.308222 l</path>
+    </node>
+    <node id="warm springs/south fremont" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">534.624811 550.091778 m 533.298061 551.308222 l</path>
+    </node>
+    <node id="16th street mission" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">146.222067 377.038292 m 141.820973 373.909338 l</path>
+    </node>
+    <node id="16th street mission" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">146.222067 377.038292 m 141.820973 373.909338 l</path>
+    </node>
+    <node id="19th street oakland" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">289.508976 272.369662 m 293.108100 272.449064 l</path>
+    </node>
+    <node id="19th street oakland" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">289.508976 272.369662 m 293.108100 272.449064 l</path>
+    </node>
+    <node id="24th street mission" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">134.319151 393.780581 m 129.918057 390.651625 l</path>
+    </node>
+    <node id="24th street mission" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">134.319151 393.780581 m 129.918057 390.651625 l</path>
+    </node>
+    <node id="ashby" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">279.336551 236.649498 m 280.824741 235.636932 l</path>
+    </node>
+    <node id="ashby" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">279.336551 236.649498 m 280.824741 235.636932 l</path>
+    </node>
+    <node id="balboa park" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">110.513318 427.265155 m 106.112224 424.136201 l</path>
+    </node>
+    <node id="balboa park" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">110.513318 427.265155 m 106.112224 424.136201 l</path>
+    </node>
+    <node id="castro valley" type="ipe">
+      <path fill="0.000000 0.682353 0.937255">0.9523810148239136 0 0 0.9523810148239136 491.131036 430.161329 e</path>
+    </node>
+    <node id="civic center" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">158.124983 360.296005 m 153.723889 357.167051 l</path>
+    </node>
+    <node id="civic center" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">158.124983 360.296005 m 153.723889 357.167051 l</path>
+    </node>
+    <node id="colma" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">115.217082 473.130497 m 116.628616 472.013549 l</path>
+    </node>
+    <node id="colma" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">115.217082 473.130497 m 116.628616 472.013549 l</path>
+    </node>
+    <node id="concord" type="ipe">
+      <path fill="1.000000 0.909804 0.000000">0.9523810148239136 0 0 0.9523810148239136 486.185624 85.518594 e</path>
+    </node>
+    <node id="downtown berkeley" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">262.657576 214.147094 m 264.103684 213.075286 l</path>
+    </node>
+    <node id="downtown berkeley" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">262.657576 214.147094 m 264.103684 213.075286 l</path>
+    </node>
+    <node id="el cerrito plaza" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">229.257544 169.083045 m 230.703652 168.011237 l</path>
+    </node>
+    <node id="el cerrito plaza" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">229.257544 169.083045 m 230.703652 168.011237 l</path>
+    </node>
+    <node id="el cerrito del norte" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">212.557528 146.551021 m 214.003636 145.479213 l</path>
+    </node>
+    <node id="el cerrito del norte" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">212.557528 146.551021 m 214.003636 145.479213 l</path>
+    </node>
+    <node id="embarcadero" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">192.416416 311.088567 m 190.849954 305.920763 l</path>
+    </node>
+    <node id="embarcadero" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">192.416416 311.088567 m 190.849954 305.920763 l</path>
+    </node>
+    <node id="fremont" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">511.564802 527.604195 m 512.891552 526.387751 l</path>
+    </node>
+    <node id="fremont" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">511.564802 527.604195 m 512.891552 526.387751 l</path>
+    </node>
+    <node id="fruitvale" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">331.897091 346.241545 m 334.372007 343.627201 l</path>
+    </node>
+    <node id="fruitvale" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">331.897091 346.241545 m 334.372007 343.627201 l</path>
+    </node>
+    <node id="glen park" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">122.416234 410.522868 m 118.015140 407.393912 l</path>
+    </node>
+    <node id="glen park" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">122.416234 410.522868 m 118.015140 407.393912 l</path>
+    </node>
+    <node id="hayward" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">446.365026 456.492114 m 447.691776 455.275670 l</path>
+    </node>
+    <node id="hayward" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">446.365026 456.492114 m 447.691776 455.275670 l</path>
+    </node>
+    <node id="lafayette" type="ipe">
+      <path fill="1.000000 0.909804 0.000000">0.9523810148239136 0 0 0.9523810148239136 389.000414 170.460343 e</path>
+    </node>
+    <node id="montgomery street" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">181.930816 326.811430 m 177.529722 323.682474 l</path>
+    </node>
+    <node id="montgomery street" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">181.930816 326.811430 m 177.529722 323.682474 l</path>
+    </node>
+    <node id="north berkeley" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">245.957560 191.615070 m 247.403668 190.543262 l</path>
+    </node>
+    <node id="north berkeley" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">245.957560 191.615070 m 247.403668 190.543262 l</path>
+    </node>
+    <node id="north concord / martinez" type="ipe">
+      <path fill="1.000000 0.909804 0.000000">0.9523810148239136 0 0 0.9523810148239136 518.580694 57.204678 e</path>
+    </node>
+    <node id="orinda" type="ipe">
+      <path fill="1.000000 0.909804 0.000000">0.9523810148239136 0 0 0.9523810148239136 356.605344 198.774259 e</path>
+    </node>
+    <node id="pleasant hill / contra costa centre" type="ipe">
+      <path fill="1.000000 0.909804 0.000000">0.9523810148239136 0 0 0.9523810148239136 453.790554 113.83251 e</path>
+    </node>
+    <node id="powell street" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">170.027899 343.553717 m 165.626805 340.424763 l</path>
+    </node>
+    <node id="powell street" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">170.027899 343.553717 m 165.626805 340.424763 l</path>
+    </node>
+    <node id="rockridge" type="ipe">
+      <path fill="1.000000 0.909804 0.000000">0.9523810148239136 0 0 0.9523810148239136 324.210274 227.088175 e</path>
+    </node>
+    <node id="san francisco international airport" type="ipe">
+      <path fill="1.000000 0.909804 0.000000">0.9523810148239136 0 0 0.9523810148239136 195.486757 531.63181 e</path>
+    </node>
+    <node id="san leandro" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">393.337486 404.405206 m 395.812402 401.790862 l</path>
+    </node>
+    <node id="san leandro" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">393.337486 404.405206 m 395.812402 401.790862 l</path>
+    </node>
+    <node id="south hayward" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">468.098285 480.196141 m 469.425035 478.979697 l</path>
+    </node>
+    <node id="south hayward" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">468.098285 480.196141 m 469.425035 478.979697 l</path>
+    </node>
+    <node id="south san francisco" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">135.698766 493.527165 m 136.921770 492.206461 l</path>
+    </node>
+    <node id="south san francisco" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">135.698766 493.527165 m 136.921770 492.206461 l</path>
+    </node>
+    <node id="union city" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">489.831544 503.900168 m 491.158294 502.683724 l</path>
+    </node>
+    <node id="union city" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">489.831544 503.900168 m 491.158294 502.683724 l</path>
+    </node>
+    <node id="walnut creek" type="ipe">
+      <path fill="1.000000 0.909804 0.000000">0.9523810148239136 0 0 0.9523810148239136 421.395484 142.146426 e</path>
+    </node>
+    <node id="west dublin/pleasanton" type="ipe">
+      <path fill="0.000000 0.682353 0.937255">0.9523810148239136 0 0 0.9523810148239136 539.706091 423.956885 e</path>
+    </node>
+  </geometricembedding>
+</metromap>

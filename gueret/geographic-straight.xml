@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metromap version="0.0.1">
+  <description>a metro map in the new format</description>
+  <graph id="g1">
+    <node id="allendé">Allendé</node>
+    <node id="anna quinquaud">Anna Quinquaud</node>
+    <node id="auvergne">Auvergne</node>
+    <node id="beauregard">Beauregard</node>
+    <node id="bellevue">Bellevue</node>
+    <node id="berry">Berry</node>
+    <node id="brésard">Brésard</node>
+    <node id="carnot">Carnot</node>
+    <node id="charles de gaulle">Charles de Gaulle</node>
+    <node id="charsat">Charsat</node>
+    <node id="chateauvieux">Chateauvieux</node>
+    <node id="cher du prat">Cher du Prat</node>
+    <node id="clinique de la marche">Clinique de la Marche</node>
+    <node id="collège marouzeau">Collège Marouzeau</node>
+    <node id="collège nadaud">Collège Nadaud</node>
+    <node id="courtille">Courtille</node>
+    <node id="croizat">Croizat</node>
+    <node id="curie">Curie</node>
+    <node id="de nussac">De Nussac</node>
+    <node id="desmoulins">Desmoulins</node>
+    <node id="docteur chantrelle">Docteur Chantrelle</node>
+    <node id="eugène france">Eugène France</node>
+    <node id="fayolle">Fayolle</node>
+    <node id="gambetta">Gambetta</node>
+    <node id="garguettes">Garguettes</node>
+    <node id="guillon">Guillon</node>
+    <node id="guéret gare sncf">Guéret Gare SNCF</node>
+    <node id="hôpital">Hôpital</node>
+    <node id="hôtel de ville">Hôtel de Ville</node>
+    <node id="jean moulin">Jean Moulin</node>
+    <node id="jouhet">Jouhet</node>
+    <node id="la châtaigneraie">La Châtaigneraie</node>
+    <node id="labetoulle">Labetoulle</node>
+    <node id="le verger">Le Verger</node>
+    <node id="limousin">Limousin</node>
+    <node id="louis laroche">Louis Laroche</node>
+    <node id="lycée bourdan">Lycée Bourdan</node>
+    <node id="lycée favard">Lycée Favard</node>
+    <node id="maindigour">Maindigour</node>
+    <node id="marc bloch">Marc Bloch</node>
+    <node id="mendès france">Mendès France</node>
+    <node id="montplaisir">Montplaisir</node>
+    <node id="petit malleret">Petit Malleret</node>
+    <node id="picasso">Picasso</node>
+    <node id="place bonnyaud">Place Bonnyaud</node>
+    <node id="place du marché">Place du Marché</node>
+    <node id="place du tilleul">Place du Tilleul</node>
+    <node id="poitou">Poitou</node>
+    <node id="pommeil">Pommeil</node>
+    <node id="pompidou">Pompidou</node>
+    <node id="professeur grancher">Professeur Grancher</node>
+    <node id="rhin danube">Rhin Danube</node>
+    <node id="ribière">Ribière</node>
+    <node id="roosevelt">Roosevelt</node>
+    <node id="saint exupéry">Saint Exupéry</node>
+    <node id="schoelcher">Schoelcher</node>
+    <node id="stade léo lagrange">Stade Léo Lagrange</node>
+    <node id="sylvain blanchet">Sylvain Blanchet</node>
+    <node id="tabarly">Tabarly</node>
+    <node id="trois fontaines">Trois Fontaines</node>
+    <node id="varennes">Varennes</node>
+    <node id="vernet">Vernet</node>
+    <node id="école langevin">École Langevin</node>
+    <node id="école prévert">École Prévert</node>
+    <metroline color="#BFCE12" id="a">A</metroline>
+    <metroline color="#AF2080" id="b">B</metroline>
+    <metroline color="#008F89" id="c">C</metroline>
+    <metroline color="#EB7066" id="d">D</metroline>
+    <metroline color="#EB7066" id="d - extension">D - extension</metroline>
+    <metroline color="#034C97" id="e">E</metroline>
+    <metroline color="#FFD500" id="f">F</metroline>
+    <metroline color="#CB3133" id="p">P</metroline>
+    <edge id="e1" source="guéret gare sncf" target="brésard">a, b, c, c, f, p, p</edge>
+    <edge id="e2" source="brésard" target="louis laroche">a</edge>
+    <edge id="e3" source="louis laroche" target="place du marché">a</edge>
+    <edge id="e4" source="place du marché" target="carnot">a</edge>
+    <edge id="e5" source="carnot" target="eugène france">a</edge>
+    <edge id="e6" source="eugène france" target="schoelcher">a</edge>
+    <edge id="e7" source="schoelcher" target="rhin danube">a</edge>
+    <edge id="e8" source="rhin danube" target="montplaisir">a</edge>
+    <edge id="e9" source="montplaisir" target="mendès france">a</edge>
+    <edge id="e10" source="mendès france" target="charles de gaulle">a</edge>
+    <edge id="e11" source="charles de gaulle" target="guéret gare sncf">a, d, d - extension</edge>
+    <edge id="e12" source="brésard" target="école prévert">b, c, f</edge>
+    <edge id="e13" source="école prévert" target="maindigour">b, c, f</edge>
+    <edge id="e14" source="maindigour" target="collège nadaud">b, f</edge>
+    <edge id="e15" source="collège nadaud" target="pompidou">b</edge>
+    <edge id="e16" source="pompidou" target="stade léo lagrange">b</edge>
+    <edge id="e17" source="stade léo lagrange" target="cher du prat">b</edge>
+    <edge id="e18" source="cher du prat" target="de nussac">b</edge>
+    <edge id="e19" source="de nussac" target="chateauvieux">b</edge>
+    <edge id="e20" source="chateauvieux" target="trois fontaines">b</edge>
+    <edge id="e21" source="trois fontaines" target="garguettes">b</edge>
+    <edge id="e22" source="garguettes" target="vernet">b</edge>
+    <edge id="e23" source="vernet" target="docteur chantrelle">b</edge>
+    <edge id="e24" source="docteur chantrelle" target="labetoulle">b</edge>
+    <edge id="e25" source="labetoulle" target="tabarly">b</edge>
+    <edge id="e26" source="tabarly" target="saint exupéry">b, f</edge>
+    <edge id="e27" source="saint exupéry" target="clinique de la marche">b, f</edge>
+    <edge id="e28" source="clinique de la marche" target="berry">b, f</edge>
+    <edge id="e29" source="berry" target="guéret gare sncf">b, f</edge>
+    <edge id="e30" source="brésard" target="poitou">c</edge>
+    <edge id="e31" source="poitou" target="sylvain blanchet">c</edge>
+    <edge id="e32" source="sylvain blanchet" target="beauregard">c</edge>
+    <edge id="e33" source="beauregard" target="maindigour">c</edge>
+    <edge id="e34" source="charles de gaulle" target="la châtaigneraie">d, d - extension</edge>
+    <edge id="e35" source="la châtaigneraie" target="desmoulins">d, d - extension</edge>
+    <edge id="e36" source="desmoulins" target="pommeil">d, d - extension</edge>
+    <edge id="e37" source="pommeil" target="curie">d, d - extension</edge>
+    <edge id="e38" source="curie" target="petit malleret">d, d - extension</edge>
+    <edge id="e39" source="petit malleret" target="place du tilleul">d, d - extension</edge>
+    <edge id="e40" source="place du tilleul" target="guillon">d, d - extension</edge>
+    <edge id="e41" source="guillon" target="ribière">d, d - extension, d - extension</edge>
+    <edge id="e42" source="ribière" target="auvergne">d</edge>
+    <edge id="e43" source="auvergne" target="roosevelt">d</edge>
+    <edge id="e44" source="roosevelt" target="guéret gare sncf">d</edge>
+    <edge id="e45" source="guillon" target="marc bloch">d - extension</edge>
+    <edge id="e46" source="marc bloch" target="guéret gare sncf">d - extension</edge>
+    <edge id="e47" source="guéret gare sncf" target="croizat">e</edge>
+    <edge id="e48" source="croizat" target="jouhet">e</edge>
+    <edge id="e49" source="jouhet" target="école langevin">e</edge>
+    <edge id="e50" source="école langevin" target="jean moulin">e</edge>
+    <edge id="e51" source="jean moulin" target="le verger">e</edge>
+    <edge id="e52" source="le verger" target="charsat">e</edge>
+    <edge id="e53" source="charsat" target="bellevue">e</edge>
+    <edge id="e54" source="bellevue" target="guéret gare sncf">e</edge>
+    <edge id="e55" source="collège nadaud" target="varennes">f</edge>
+    <edge id="e56" source="varennes" target="tabarly">f</edge>
+    <edge id="e57" source="courtille" target="picasso">p</edge>
+    <edge id="e58" source="picasso" target="allendé">p, p</edge>
+    <edge id="e59" source="allendé" target="brésard">p, p</edge>
+    <edge id="e60" source="guéret gare sncf" target="gambetta">p, p</edge>
+    <edge id="e61" source="gambetta" target="fayolle">p, p</edge>
+    <edge id="e62" source="fayolle" target="lycée bourdan">p, p</edge>
+    <edge id="e63" source="lycée bourdan" target="hôtel de ville">p, p</edge>
+    <edge id="e64" source="hôtel de ville" target="place bonnyaud">p</edge>
+    <edge id="e65" source="place bonnyaud" target="collège marouzeau">p</edge>
+    <edge id="e66" source="collège marouzeau" target="hôpital">p, p</edge>
+    <edge id="e67" source="hôpital" target="limousin">p, p</edge>
+    <edge id="e68" source="limousin" target="professeur grancher">p, p</edge>
+    <edge id="e69" source="professeur grancher" target="anna quinquaud">p, p</edge>
+    <edge id="e70" source="collège marouzeau" target="hôtel de ville">p</edge>
+    <edge id="e71" source="picasso" target="lycée favard">p</edge>
+    <edge id="e72" source="lycée favard" target="courtille">p</edge>
+  </graph>
+  <geometricembedding height="1000" id="ge1" width="799">
+    <metroline edge="e1" id="a" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.749020 0.807843 0.070588">439.360415 562.516994 m 298.173564 556.746990 l</path>
+    </metroline>
+    <metroline edge="e1" id="b" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.686275 0.125490 0.501961">439.286915 564.315493 m 298.100064 558.545489 l</path>
+    </metroline>
+    <metroline edge="e1" id="c" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.560784 0.537255">439.213414 566.113991 m 298.026563 560.343987 l</path>
+    </metroline>
+    <metroline edge="e1" id="c" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.560784 0.537255">439.139913 567.912490 m 297.953062 562.142486 l</path>
+    </metroline>
+    <metroline edge="e1" id="f" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.835294 0.000000">439.066412 569.710989 m 297.879561 563.940985 l</path>
+    </metroline>
+    <metroline edge="e1" id="p" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.796078 0.192157 0.200000">438.992911 571.509487 m 297.806060 565.739483 l</path>
+    </metroline>
+    <metroline edge="e1" id="p" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.796078 0.192157 0.200000">438.919411 573.307986 m 297.732560 567.537982 l</path>
+    </metroline>
+    <metroline edge="e2" id="a" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.749020 0.807843 0.070588">297.953062 562.142486 m 279.170724 610.831998 l</path>
+    </metroline>
+    <metroline edge="e3" id="a" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.749020 0.807843 0.070588">279.170724 610.831998 m 276.845447 633.674531 l</path>
+    </metroline>
+    <metroline edge="e4" id="a" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.749020 0.807843 0.070588">276.845447 633.674531 m 297.461806 653.064358 l</path>
+    </metroline>
+    <metroline edge="e5" id="a" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.749020 0.807843 0.070588">297.461806 653.064358 m 345.195473 716.079300 l</path>
+    </metroline>
+    <metroline edge="e6" id="a" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.749020 0.807843 0.070588">345.195473 716.079300 m 329.475294 905.484070 l</path>
+    </metroline>
+    <metroline edge="e7" id="a" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.749020 0.807843 0.070588">329.475294 905.484070 m 351.663671 831.366277 l</path>
+    </metroline>
+    <metroline edge="e8" id="a" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.749020 0.807843 0.070588">351.663671 831.366277 m 349.633148 787.106365 l</path>
+    </metroline>
+    <metroline edge="e9" id="a" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.749020 0.807843 0.070588">349.633148 787.106365 m 352.957311 744.003519 l</path>
+    </metroline>
+    <metroline edge="e10" id="a" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.749020 0.807843 0.070588">352.957311 744.003519 m 365.582579 632.846910 l</path>
+    </metroline>
+    <metroline edge="e11" id="a" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.749020 0.807843 0.070588">366.773817 634.196337 m 440.331151 569.261917 l</path>
+    </metroline>
+    <metroline edge="e11" id="d" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.921569 0.439216 0.400000">365.582579 632.846910 m 439.139913 567.912490 l</path>
+    </metroline>
+    <metroline edge="e11" id="d - extension" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.921569 0.439216 0.400000">364.391341 631.497483 m 437.948675 566.563063 l</path>
+    </metroline>
+    <metroline edge="e12" id="b" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.686275 0.125490 0.501961">299.751911 562.078121 m 297.754138 506.244921 l</path>
+    </metroline>
+    <metroline edge="e12" id="c" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.560784 0.537255">297.953062 562.142486 m 295.955289 506.309286 l</path>
+    </metroline>
+    <metroline edge="e12" id="f" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.835294 0.000000">296.154213 562.206851 m 294.156440 506.373651 l</path>
+    </metroline>
+    <metroline edge="e13" id="b" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.686275 0.125490 0.501961">297.738243 506.556419 m 305.041576 453.866221 l</path>
+    </metroline>
+    <metroline edge="e13" id="c" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.560784 0.537255">295.955289 506.309286 m 303.258622 453.619088 l</path>
+    </metroline>
+    <metroline edge="e13" id="f" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.835294 0.000000">294.172335 506.062153 m 301.475668 453.371955 l</path>
+    </metroline>
+    <metroline edge="e14" id="b" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.686275 0.125490 0.501961">303.640548 454.434031 m 373.431589 421.726249 l</path>
+    </metroline>
+    <metroline edge="e14" id="f" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.835294 0.000000">302.876696 452.804145 m 372.667737 420.096363 l</path>
+    </metroline>
+    <metroline edge="e15" id="b" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.686275 0.125490 0.501961">373.049663 420.911306 m 408.387314 343.880402 l</path>
+    </metroline>
+    <metroline edge="e16" id="b" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.686275 0.125490 0.501961">408.387314 343.880402 m 345.539351 321.836945 l</path>
+    </metroline>
+    <metroline edge="e17" id="b" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.686275 0.125490 0.501961">345.539351 321.836945 m 338.530772 241.299466 l</path>
+    </metroline>
+    <metroline edge="e18" id="b" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.686275 0.125490 0.501961">338.530772 241.299466 m 335.697865 129.413867 l</path>
+    </metroline>
+    <metroline edge="e19" id="b" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.686275 0.125490 0.501961">335.697865 129.413867 m 332.619330 73.396487 l</path>
+    </metroline>
+    <metroline edge="e20" id="b" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.686275 0.125490 0.501961">332.619330 73.396487 m 432.688090 102.682901 l</path>
+    </metroline>
+    <metroline edge="e21" id="b" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.686275 0.125490 0.501961">432.688090 102.682901 m 474.264686 50.000000 l</path>
+    </metroline>
+    <metroline edge="e22" id="b" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.686275 0.125490 0.501961">474.264686 50.000000 m 497.468324 159.810802 l</path>
+    </metroline>
+    <metroline edge="e23" id="b" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.686275 0.125490 0.501961">497.468324 159.810802 m 496.534939 222.116383 l</path>
+    </metroline>
+    <metroline edge="e24" id="b" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.686275 0.125490 0.501961">496.534939 222.116383 m 512.074990 288.771060 l</path>
+    </metroline>
+    <metroline edge="e25" id="b" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.686275 0.125490 0.501961">512.074990 288.771060 m 546.937760 374.934551 l</path>
+    </metroline>
+    <metroline edge="e26" id="b" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.686275 0.125490 0.501961">546.100326 374.604849 m 530.904154 413.202728 l</path>
+    </metroline>
+    <metroline edge="e26" id="f" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.835294 0.000000">547.775194 375.264253 m 532.579022 413.862132 l</path>
+    </metroline>
+    <metroline edge="e27" id="b" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.686275 0.125490 0.501961">531.359129 412.717737 m 460.880330 445.804100 l</path>
+    </metroline>
+    <metroline edge="e27" id="f" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.835294 0.000000">532.124047 414.347123 m 461.645248 447.433486 l</path>
+    </metroline>
+    <metroline edge="e28" id="b" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.686275 0.125490 0.501961">460.685037 445.928718 m 422.268851 478.091923 l</path>
+    </metroline>
+    <metroline edge="e28" id="f" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.835294 0.000000">461.840541 447.308868 m 423.424355 479.472073 l</path>
+    </metroline>
+    <metroline edge="e29" id="b" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.686275 0.125490 0.501961">421.961274 478.943839 m 438.254584 568.074331 l</path>
+    </metroline>
+    <metroline edge="e29" id="f" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.835294 0.000000">423.731932 478.620157 m 440.025242 567.750649 l</path>
+    </metroline>
+    <metroline edge="e30" id="c" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.560784 0.537255">297.953062 562.142486 m 191.710857 525.913847 l</path>
+    </metroline>
+    <metroline edge="e31" id="c" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.560784 0.537255">191.710857 525.913847 m 197.147419 468.187148 l</path>
+    </metroline>
+    <metroline edge="e32" id="c" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.560784 0.537255">197.147419 468.187148 m 239.919404 459.129428 l</path>
+    </metroline>
+    <metroline edge="e33" id="c" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.000000 0.560784 0.537255">239.919404 459.129428 m 303.258622 453.619088 l</path>
+    </metroline>
+    <metroline edge="e34" id="d" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.921569 0.439216 0.400000">364.729908 633.134924 m 411.300936 771.009318 l</path>
+    </metroline>
+    <metroline edge="e34" id="d - extension" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.921569 0.439216 0.400000">366.435250 632.558896 m 413.006278 770.433290 l</path>
+    </metroline>
+    <metroline edge="e35" id="d" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.921569 0.439216 0.400000">411.491803 771.331234 m 455.311800 818.878078 l</path>
+    </metroline>
+    <metroline edge="e35" id="d - extension" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.921569 0.439216 0.400000">412.815411 770.111374 m 456.635408 817.658218 l</path>
+    </metroline>
+    <metroline edge="e36" id="d" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.921569 0.439216 0.400000">455.223902 818.766090 m 503.416073 891.324283 l</path>
+    </metroline>
+    <metroline edge="e36" id="d - extension" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.921569 0.439216 0.400000">456.723306 817.770206 m 504.915477 890.328399 l</path>
+    </metroline>
+    <metroline edge="e37" id="d" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.921569 0.439216 0.400000">505.027181 890.565613 m 477.025614 798.052616 l</path>
+    </metroline>
+    <metroline edge="e37" id="d - extension" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.921569 0.439216 0.400000">503.304369 891.087069 m 475.302802 798.574072 l</path>
+    </metroline>
+    <metroline edge="e38" id="d" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.921569 0.439216 0.400000">476.995525 798.658180 m 491.618566 763.405522 l</path>
+    </metroline>
+    <metroline edge="e38" id="d - extension" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.921569 0.439216 0.400000">475.332891 797.968508 m 489.955932 762.715850 l</path>
+    </metroline>
+    <metroline edge="e39" id="d" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.921569 0.439216 0.400000">490.381867 763.864219 m 586.127577 812.167921 l</path>
+    </metroline>
+    <metroline edge="e39" id="d - extension" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.921569 0.439216 0.400000">491.192631 762.257153 m 586.938341 810.560855 l</path>
+    </metroline>
+    <metroline edge="e40" id="d" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.921569 0.439216 0.400000">587.338809 811.765145 m 609.232433 767.740992 l</path>
+    </metroline>
+    <metroline edge="e40" id="d - extension" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.921569 0.439216 0.400000">585.727109 810.963631 m 607.620733 766.939478 l</path>
+    </metroline>
+    <metroline edge="e41" id="d" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.921569 0.439216 0.400000">609.723732 766.092275 m 575.761597 730.791488 l</path>
+    </metroline>
+    <metroline edge="e41" id="d - extension" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.921569 0.439216 0.400000">608.426583 767.340235 m 574.464448 732.039448 l</path>
+    </metroline>
+    <metroline edge="e41" id="d - extension" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.921569 0.439216 0.400000">607.129434 768.588195 m 573.167299 733.287408 l</path>
+    </metroline>
+    <metroline edge="e42" id="d" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.921569 0.439216 0.400000">574.464448 732.039448 m 510.159093 684.371225 l</path>
+    </metroline>
+    <metroline edge="e43" id="d" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.921569 0.439216 0.400000">510.159093 684.371225 m 491.851636 616.790959 l</path>
+    </metroline>
+    <metroline edge="e44" id="d" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.921569 0.439216 0.400000">491.851636 616.790959 m 439.139913 567.912490 l</path>
+    </metroline>
+    <metroline edge="e45" id="d - extension" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.921569 0.439216 0.400000">608.426583 767.340235 m 548.575279 664.839990 l</path>
+    </metroline>
+    <metroline edge="e46" id="d - extension" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.921569 0.439216 0.400000">548.575279 664.839990 m 439.139913 567.912490 l</path>
+    </metroline>
+    <metroline edge="e47" id="e" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.011765 0.298039 0.592157">439.139913 567.912490 m 394.615783 507.231582 l</path>
+    </metroline>
+    <metroline edge="e48" id="e" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.011765 0.298039 0.592157">394.615783 507.231582 m 448.113515 517.045717 l</path>
+    </metroline>
+    <metroline edge="e49" id="e" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.011765 0.298039 0.592157">448.113515 517.045717 m 504.968159 537.903463 l</path>
+    </metroline>
+    <metroline edge="e50" id="e" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.011765 0.298039 0.592157">504.968159 537.903463 m 607.132943 520.025415 l</path>
+    </metroline>
+    <metroline edge="e51" id="e" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.011765 0.298039 0.592157">607.132943 520.025415 m 687.174851 523.336183 l</path>
+    </metroline>
+    <metroline edge="e52" id="e" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.011765 0.298039 0.592157">687.174851 523.336183 m 748.156042 501.934284 l</path>
+    </metroline>
+    <metroline edge="e53" id="e" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.011765 0.298039 0.592157">748.156042 501.934284 m 556.861123 575.739789 l</path>
+    </metroline>
+    <metroline edge="e54" id="e" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.011765 0.298039 0.592157">556.861123 575.739789 m 439.139913 567.912490 l</path>
+    </metroline>
+    <metroline edge="e55" id="f" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.835294 0.000000">373.049663 420.911306 m 450.946422 350.904901 l</path>
+    </metroline>
+    <metroline edge="e56" id="f" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="1.000000 0.835294 0.000000">450.946422 350.904901 m 546.937760 374.934551 l</path>
+    </metroline>
+    <metroline edge="e57" id="p" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.796078 0.192157 0.200000">50.000000 732.630560 m 132.006930 655.428952 l</path>
+    </metroline>
+    <metroline edge="e58" id="p" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.796078 0.192157 0.200000">132.629666 656.078721 m 213.211955 578.848881 l</path>
+    </metroline>
+    <metroline edge="e58" id="p" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.796078 0.192157 0.200000">131.384194 654.779183 m 211.966483 577.549343 l</path>
+    </metroline>
+    <metroline edge="e59" id="p" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.796078 0.192157 0.200000">212.755588 579.083601 m 298.119431 563.026975 l</path>
+    </metroline>
+    <metroline edge="e59" id="p" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.796078 0.192157 0.200000">212.422850 577.314623 m 297.786693 561.257997 l</path>
+    </metroline>
+    <metroline edge="e60" id="p" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.796078 0.192157 0.200000">438.368748 567.448482 m 407.763526 618.313265 l</path>
+    </metroline>
+    <metroline edge="e60" id="p" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.796078 0.192157 0.200000">439.911078 568.376498 m 409.305856 619.241281 l</path>
+    </metroline>
+    <metroline edge="e61" id="p" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.796078 0.192157 0.200000">408.424328 617.884065 m 336.848391 626.727855 l</path>
+    </metroline>
+    <metroline edge="e61" id="p" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.796078 0.192157 0.200000">408.645054 619.670481 m 337.069117 628.514271 l</path>
+    </metroline>
+    <metroline edge="e62" id="p" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.796078 0.192157 0.200000">336.582807 626.803344 m 325.267554 632.005545 l</path>
+    </metroline>
+    <metroline edge="e62" id="p" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.796078 0.192157 0.200000">337.334701 628.438782 m 326.019448 633.640983 l</path>
+    </metroline>
+    <metroline edge="e63" id="p" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.796078 0.192157 0.200000">324.751818 632.701192 m 317.202857 687.843246 l</path>
+    </metroline>
+    <metroline edge="e63" id="p" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.796078 0.192157 0.200000">326.535184 632.945336 m 318.986223 688.087390 l</path>
+    </metroline>
+    <metroline edge="e64" id="p" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.796078 0.192157 0.200000">318.094540 687.965318 m 295.349407 704.067681 l</path>
+    </metroline>
+    <metroline edge="e65" id="p" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.796078 0.192157 0.200000">295.349407 704.067681 m 304.503136 750.316532 l</path>
+    </metroline>
+    <metroline edge="e66" id="p" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.796078 0.192157 0.200000">303.660937 750.633866 m 314.583186 779.621315 l</path>
+    </metroline>
+    <metroline edge="e66" id="p" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.796078 0.192157 0.200000">305.345335 749.999198 m 316.267584 778.986647 l</path>
+    </metroline>
+    <metroline edge="e67" id="p" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.796078 0.192157 0.200000">314.530921 779.403647 m 322.800390 853.618976 l</path>
+    </metroline>
+    <metroline edge="e67" id="p" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.796078 0.192157 0.200000">316.319849 779.204315 m 324.589318 853.419644 l</path>
+    </metroline>
+    <metroline edge="e68" id="p" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.796078 0.192157 0.200000">322.830747 853.267678 m 309.419470 899.322083 l</path>
+    </metroline>
+    <metroline edge="e68" id="p" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.796078 0.192157 0.200000">324.558961 853.770942 m 311.147684 899.825347 l</path>
+    </metroline>
+    <metroline edge="e69" id="p" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.796078 0.192157 0.200000">309.600409 898.987813 m 266.353543 949.414098 l</path>
+    </metroline>
+    <metroline edge="e69" id="p" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.796078 0.192157 0.200000">310.966745 900.159617 m 267.719879 950.585902 l</path>
+    </metroline>
+    <metroline edge="e70" id="p" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.796078 0.192157 0.200000">304.503136 750.316532 m 318.094540 687.965318 l</path>
+    </metroline>
+    <metroline edge="e71" id="p" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.796078 0.192157 0.200000">132.006930 655.428952 m 82.324617 709.978925 l</path>
+    </metroline>
+    <metroline edge="e72" id="p" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.796078 0.192157 0.200000">82.324617 709.978925 m 50.000000 732.630560 l</path>
+    </metroline>
+    <node id="guéret gare sncf" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">433.069305 570.870422 m 436.906860 560.701782 l 441.601471 563.106201 l 440.331146 569.261902 l 436.678345 572.718811 l 436.511810 572.633545 l 433.069305 570.870422 l</path>
+    </node>
+    <node id="guéret gare sncf" type="ipe">
+      <path fill="1.000000 1.000000 1.000000">433.069305 570.870422 m 436.906860 560.701782 l 441.601471 563.106201 l 440.331146 569.261902 l 436.678345 572.718811 l 436.511810 572.633545 l 433.069305 570.870422 l</path>
+    </node>
+    <node id="guéret gare sncf" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">433.069305 570.870422 m 436.906860 560.701782 l 441.601471 563.106201 l 440.331146 569.261902 l 436.678345 572.718811 l 436.511810 572.633545 l 433.069305 570.870422 l</path>
+    </node>
+    <node id="brésard" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">297.129822 567.479370 m 297.241669 563.795959 l 298.776306 556.805603 l 298.664429 560.489014 l 297.129822 567.479370 l</path>
+    </node>
+    <node id="brésard" type="ipe">
+      <path fill="1.000000 1.000000 1.000000">297.129822 567.479370 m 297.241669 563.795959 l 298.776306 556.805603 l 298.664429 560.489014 l 297.129822 567.479370 l</path>
+    </node>
+    <node id="brésard" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">297.129822 567.479370 m 297.241669 563.795959 l 298.776306 556.805603 l 298.664429 560.489014 l 297.129822 567.479370 l</path>
+    </node>
+    <node id="charles de gaulle" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">367.332503 633.268532 m 363.832655 632.425288 l</path>
+    </node>
+    <node id="charles de gaulle" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">367.332503 633.268532 m 363.832655 632.425288 l</path>
+    </node>
+    <node id="collège nadaud" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">372.470651 420.222288 m 373.628675 421.600324 l</path>
+    </node>
+    <node id="collège nadaud" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">372.470651 420.222288 m 373.628675 421.600324 l</path>
+    </node>
+    <node id="maindigour" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">301.617340 452.880035 m 302.590576 453.015991 l 304.899902 454.358154 l 303.926666 454.222168 l 301.617340 452.880035 l</path>
+    </node>
+    <node id="maindigour" type="ipe">
+      <path fill="1.000000 1.000000 1.000000">301.617340 452.880035 m 302.590576 453.015991 l 304.899902 454.358154 l 303.926666 454.222168 l 301.617340 452.880035 l</path>
+    </node>
+    <node id="maindigour" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">301.617340 452.880035 m 302.590576 453.015991 l 304.899902 454.358154 l 303.926666 454.222168 l 301.617340 452.880035 l</path>
+    </node>
+    <node id="tabarly" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">546.144560 375.359796 m 547.730960 374.509306 l</path>
+    </node>
+    <node id="tabarly" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">546.144560 375.359796 m 547.730960 374.509306 l</path>
+    </node>
+    <node id="courtille" type="ipe">
+      <path fill="0.796078 0.192157 0.200000">0.9523810148239136 0 0 0.9523810148239136 50.0 732.63056 e</path>
+    </node>
+    <node id="guillon" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">606.966553 768.392944 m 607.536804 767.475586 l 609.886658 766.287476 l 609.316345 767.204895 l 606.966553 768.392944 l</path>
+    </node>
+    <node id="guillon" type="ipe">
+      <path fill="1.000000 1.000000 1.000000">606.966553 768.392944 m 607.536804 767.475586 l 609.886658 766.287476 l 609.316345 767.204895 l 606.966553 768.392944 l</path>
+    </node>
+    <node id="guillon" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">606.966553 768.392944 m 607.536804 767.475586 l 609.886658 766.287476 l 609.316345 767.204895 l 606.966553 768.392944 l</path>
+    </node>
+    <node id="ribière" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">573.303224 733.414788 m 575.625672 730.664108 l</path>
+    </node>
+    <node id="ribière" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">573.303224 733.414788 m 575.625672 730.664108 l</path>
+    </node>
+    <node id="allendé" type="ipe">
+      <path fill="0.796078 0.192157 0.200000">0.9523810148239136 0 0 0.9523810148239136 212.589219 578.199112 e</path>
+    </node>
+    <node id="anna quinquaud" type="ipe">
+      <path fill="0.796078 0.192157 0.200000">0.9523810148239136 0 0 0.9523810148239136 267.036711 950.0 e</path>
+    </node>
+    <node id="auvergne" type="ipe">
+      <path fill="0.921569 0.439216 0.400000">0.9523810148239136 0 0 0.9523810148239136 510.159093 684.371225 e</path>
+    </node>
+    <node id="beauregard" type="ipe">
+      <path fill="0.000000 0.560784 0.537255">0.9523810148239136 0 0 0.9523810148239136 239.919404 459.129428 e</path>
+    </node>
+    <node id="bellevue" type="ipe">
+      <path fill="0.011765 0.298039 0.592157">0.9523810148239136 0 0 0.9523810148239136 556.861123 575.739789 e</path>
+    </node>
+    <node id="berry" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">423.731997 478.943486 m 421.961209 478.620510 l</path>
+    </node>
+    <node id="berry" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">423.731997 478.943486 m 421.961209 478.620510 l</path>
+    </node>
+    <node id="carnot" type="ipe">
+      <path fill="0.749020 0.807843 0.070588">0.9523810148239136 0 0 0.9523810148239136 297.461806 653.064358 e</path>
+    </node>
+    <node id="charsat" type="ipe">
+      <path fill="0.011765 0.298039 0.592157">0.9523810148239136 0 0 0.9523810148239136 748.156042 501.934284 e</path>
+    </node>
+    <node id="chateauvieux" type="ipe">
+      <path fill="0.686275 0.125490 0.501961">0.9523810148239136 0 0 0.9523810148239136 332.61933 73.396487 e</path>
+    </node>
+    <node id="cher du prat" type="ipe">
+      <path fill="0.686275 0.125490 0.501961">0.9523810148239136 0 0 0.9523810148239136 338.530772 241.299466 e</path>
+    </node>
+    <node id="clinique de la marche" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">461.725379 447.390810 m 460.800199 445.846776 l</path>
+    </node>
+    <node id="clinique de la marche" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">461.725379 447.390810 m 460.800199 445.846776 l</path>
+    </node>
+    <node id="croizat" type="ipe">
+      <path fill="0.011765 0.298039 0.592157">0.9523810148239136 0 0 0.9523810148239136 394.615783 507.231582 e</path>
+    </node>
+    <node id="curie" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">475.269102 798.407072 m 477.059314 798.219616 l</path>
+    </node>
+    <node id="curie" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">475.269102 798.407072 m 477.059314 798.219616 l</path>
+    </node>
+    <node id="de nussac" type="ipe">
+      <path fill="0.686275 0.125490 0.501961">0.9523810148239136 0 0 0.9523810148239136 335.697865 129.413867 e</path>
+    </node>
+    <node id="desmoulins" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">456.688046 817.720816 m 455.259162 818.815480 l</path>
+    </node>
+    <node id="desmoulins" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">456.688046 817.720816 m 455.259162 818.815480 l</path>
+    </node>
+    <node id="docteur chantrelle" type="ipe">
+      <path fill="0.686275 0.125490 0.501961">0.9523810148239136 0 0 0.9523810148239136 496.534939 222.116383 e</path>
+    </node>
+    <node id="eugène france" type="ipe">
+      <path fill="0.749020 0.807843 0.070588">0.9523810148239136 0 0 0.9523810148239136 345.195473 716.0793 e</path>
+    </node>
+    <node id="fayolle" type="ipe">
+      <path fill="0.796078 0.192157 0.200000">0.9523810148239136 0 0 0.9523810148239136 336.958754 627.621063 e</path>
+    </node>
+    <node id="gambetta" type="ipe">
+      <path fill="0.796078 0.192157 0.200000">0.9523810148239136 0 0 0.9523810148239136 408.534691 618.777273 e</path>
+    </node>
+    <node id="garguettes" type="ipe">
+      <path fill="0.686275 0.125490 0.501961">0.9523810148239136 0 0 0.9523810148239136 474.264686 50.0 e</path>
+    </node>
+    <node id="hôpital" type="ipe">
+      <path fill="0.796078 0.192157 0.200000">0.9523810148239136 0 0 0.9523810148239136 315.425385 779.303981 e</path>
+    </node>
+    <node id="jean moulin" type="ipe">
+      <path fill="0.011765 0.298039 0.592157">0.9523810148239136 0 0 0.9523810148239136 607.132943 520.025415 e</path>
+    </node>
+    <node id="jouhet" type="ipe">
+      <path fill="0.011765 0.298039 0.592157">0.9523810148239136 0 0 0.9523810148239136 448.113515 517.045717 e</path>
+    </node>
+    <node id="la châtaigneraie" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">412.962599 770.326928 m 411.344615 771.115680 l</path>
+    </node>
+    <node id="la châtaigneraie" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">412.962599 770.326928 m 411.344615 771.115680 l</path>
+    </node>
+    <node id="labetoulle" type="ipe">
+      <path fill="0.686275 0.125490 0.501961">0.9523810148239136 0 0 0.9523810148239136 512.07499 288.77106 e</path>
+    </node>
+    <node id="le verger" type="ipe">
+      <path fill="0.011765 0.298039 0.592157">0.9523810148239136 0 0 0.9523810148239136 687.174851 523.336183 e</path>
+    </node>
+    <node id="limousin" type="ipe">
+      <path fill="0.796078 0.192157 0.200000">0.9523810148239136 0 0 0.9523810148239136 323.694854 853.51931 e</path>
+    </node>
+    <node id="louis laroche" type="ipe">
+      <path fill="0.749020 0.807843 0.070588">0.9523810148239136 0 0 0.9523810148239136 279.170724 610.831998 e</path>
+    </node>
+    <node id="lycée bourdan" type="ipe">
+      <path fill="0.796078 0.192157 0.200000">0.9523810148239136 0 0 0.9523810148239136 325.643501 632.823264 e</path>
+    </node>
+    <node id="lycée favard" type="ipe">
+      <path fill="0.796078 0.192157 0.200000">0.9523810148239136 0 0 0.9523810148239136 82.324617 709.978925 e</path>
+    </node>
+    <node id="marc bloch" type="ipe">
+      <path fill="0.921569 0.439216 0.400000">0.9523810148239136 0 0 0.9523810148239136 548.575279 664.83999 e</path>
+    </node>
+    <node id="mendès france" type="ipe">
+      <path fill="0.749020 0.807843 0.070588">0.9523810148239136 0 0 0.9523810148239136 352.957311 744.003519 e</path>
+    </node>
+    <node id="montplaisir" type="ipe">
+      <path fill="0.749020 0.807843 0.070588">0.9523810148239136 0 0 0.9523810148239136 349.633148 787.106365 e</path>
+    </node>
+    <node id="petit malleret" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">490.892937 762.166913 m 490.681561 763.954459 l</path>
+    </node>
+    <node id="petit malleret" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">490.892937 762.166913 m 490.681561 763.954459 l</path>
+    </node>
+    <node id="place bonnyaud" type="ipe">
+      <path fill="0.796078 0.192157 0.200000">0.9523810148239136 0 0 0.9523810148239136 295.349407 704.067681 e</path>
+    </node>
+    <node id="place du marché" type="ipe">
+      <path fill="0.749020 0.807843 0.070588">0.9523810148239136 0 0 0.9523810148239136 276.845447 633.674531 e</path>
+    </node>
+    <node id="place du tilleul" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">586.565678 810.464983 m 586.500240 812.263793 l</path>
+    </node>
+    <node id="place du tilleul" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">586.565678 810.464983 m 586.500240 812.263793 l</path>
+    </node>
+    <node id="poitou" type="ipe">
+      <path fill="0.000000 0.560784 0.537255">0.9523810148239136 0 0 0.9523810148239136 191.710857 525.913847 e</path>
+    </node>
+    <node id="pommeil" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">503.533128 890.186218 m 504.798422 891.466464 l</path>
+    </node>
+    <node id="pommeil" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">503.533128 890.186218 m 504.798422 891.466464 l</path>
+    </node>
+    <node id="pompidou" type="ipe">
+      <path fill="0.686275 0.125490 0.501961">0.9523810148239136 0 0 0.9523810148239136 408.387314 343.880402 e</path>
+    </node>
+    <node id="professeur grancher" type="ipe">
+      <path fill="0.796078 0.192157 0.200000">0.9523810148239136 0 0 0.9523810148239136 310.283577 899.573715 e</path>
+    </node>
+    <node id="rhin danube" type="ipe">
+      <path fill="0.749020 0.807843 0.070588">0.9523810148239136 0 0 0.9523810148239136 351.663671 831.366277 e</path>
+    </node>
+    <node id="roosevelt" type="ipe">
+      <path fill="0.921569 0.439216 0.400000">0.9523810148239136 0 0 0.9523810148239136 491.851636 616.790959 e</path>
+    </node>
+    <node id="saint exupéry" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">532.319124 414.222685 m 531.164052 412.842175 l</path>
+    </node>
+    <node id="saint exupéry" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">532.319124 414.222685 m 531.164052 412.842175 l</path>
+    </node>
+    <node id="schoelcher" type="ipe">
+      <path fill="0.749020 0.807843 0.070588">0.9523810148239136 0 0 0.9523810148239136 329.475294 905.48407 e</path>
+    </node>
+    <node id="stade léo lagrange" type="ipe">
+      <path fill="0.686275 0.125490 0.501961">0.9523810148239136 0 0 0.9523810148239136 345.539351 321.836945 e</path>
+    </node>
+    <node id="sylvain blanchet" type="ipe">
+      <path fill="0.000000 0.560784 0.537255">0.9523810148239136 0 0 0.9523810148239136 197.147419 468.187148 e</path>
+    </node>
+    <node id="trois fontaines" type="ipe">
+      <path fill="0.686275 0.125490 0.501961">0.9523810148239136 0 0 0.9523810148239136 432.68809 102.682901 e</path>
+    </node>
+    <node id="varennes" type="ipe">
+      <path fill="1.000000 0.835294 0.000000">0.9523810148239136 0 0 0.9523810148239136 450.946422 350.904901 e</path>
+    </node>
+    <node id="vernet" type="ipe">
+      <path fill="0.686275 0.125490 0.501961">0.9523810148239136 0 0 0.9523810148239136 497.468324 159.810802 e</path>
+    </node>
+    <node id="école langevin" type="ipe">
+      <path fill="0.011765 0.298039 0.592157">0.9523810148239136 0 0 0.9523810148239136 504.968159 537.903463 e</path>
+    </node>
+    <node id="école prévert" type="ipe">
+      <path cap="1" join="1" pen="2.6666667" stroke="0.000000 0.000000 0.000000">294.157436 506.221391 m 297.753142 506.397181 l</path>
+    </node>
+    <node id="école prévert" type="ipe">
+      <path cap="1" join="1" pen="1.904762" stroke="1.000000 1.000000 1.000000">294.157436 506.221391 m 297.753142 506.397181 l</path>
+    </node>
+    <node id="collège marouzeau" type="ipe">
+      <path fill="0.796078 0.192157 0.200000">0.9523810148239136 0 0 0.9523810148239136 304.503136 750.316532 e</path>
+    </node>
+    <node id="hôtel de ville" type="ipe">
+      <path fill="0.796078 0.192157 0.200000">0.9523810148239136 0 0 0.9523810148239136 318.09454 687.965318 e</path>
+    </node>
+    <node id="picasso" type="ipe">
+      <path fill="0.796078 0.192157 0.200000">0.9523810148239136 0 0 0.9523810148239136 132.00693 655.428952 e</path>
+    </node>
+  </geometricembedding>
+</metromap>

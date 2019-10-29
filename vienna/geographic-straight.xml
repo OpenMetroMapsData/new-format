@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metromap version="0.0.1">
+  <description>a metro map in the new format</description>
+  <graph id="g1">
+    <node id="aderklaaer straße">Aderklaaer Straße</node>
+    <node id="alaudagasse">Alaudagasse</node>
+    <node id="alser straße">Alser Straße</node>
+    <node id="alte donau">Alte Donau</node>
+    <node id="alterlaa">Alterlaa</node>
+    <node id="altes landgut">Altes Landgut</node>
+    <node id="am schöpfwerk">Am Schöpfwerk</node>
+    <node id="aspern nord">Aspern Nord</node>
+    <node id="aspernstraße">Aspernstraße</node>
+    <node id="bahnhof meidling">Bahnhof Meidling</node>
+    <node id="braunschweiggasse">Braunschweiggasse</node>
+    <node id="burggasse-stadthalle">Burggasse-Stadthalle</node>
+    <node id="donauinsel">Donauinsel</node>
+    <node id="donaumarina">Donaumarina</node>
+    <node id="donauspital">Donauspital</node>
+    <node id="donaustadtbrücke">Donaustadtbrücke</node>
+    <node id="dresdner straße">Dresdner Straße</node>
+    <node id="enkplatz">Enkplatz</node>
+    <node id="erdberg">Erdberg</node>
+    <node id="erlaaer straße">Erlaaer Straße</node>
+    <node id="floridsdorf">Floridsdorf</node>
+    <node id="friedensbrücke">Friedensbrücke</node>
+    <node id="gasometer">Gasometer</node>
+    <node id="großfeldsiedlung">Großfeldsiedlung</node>
+    <node id="gumpendorfer straße">Gumpendorfer Straße</node>
+    <node id="handelskai">Handelskai</node>
+    <node id="hardeggasse">Hardeggasse</node>
+    <node id="hausfeldstraße">Hausfeldstraße</node>
+    <node id="heiligenstadt">Heiligenstadt</node>
+    <node id="herrengasse">Herrengasse</node>
+    <node id="hietzing">Hietzing</node>
+    <node id="hütteldorf">Hütteldorf</node>
+    <node id="hütteldorfer straße">Hütteldorfer Straße</node>
+    <node id="johnstraße">Johnstraße</node>
+    <node id="josefstädter straße">Josefstädter Straße</node>
+    <node id="jägerstraße">Jägerstraße</node>
+    <node id="kagran">Kagran</node>
+    <node id="kagraner platz">Kagraner Platz</node>
+    <node id="kaisermühlen vic">Kaisermühlen VIC</node>
+    <node id="kardinal-nagl-platz">Kardinal-Nagl-Platz</node>
+    <node id="karlsplatz">Karlsplatz</node>
+    <node id="kendlerstraße">Kendlerstraße</node>
+    <node id="keplerplatz">Keplerplatz</node>
+    <node id="kettenbrückengasse">Kettenbrückengasse</node>
+    <node id="krieau">Krieau</node>
+    <node id="landstraße">Landstraße</node>
+    <node id="leopoldau">Leopoldau</node>
+    <node id="längenfeldgasse">Längenfeldgasse</node>
+    <node id="margaretengürtel">Margaretengürtel</node>
+    <node id="meidling hauptstraße">Meidling Hauptstraße</node>
+    <node id="messe-prater">Messe-Prater</node>
+    <node id="michelbeuern-akh">Michelbeuern-AKH</node>
+    <node id="museumsquartier">Museumsquartier</node>
+    <node id="nestroyplatz">Nestroyplatz</node>
+    <node id="neubaugasse">Neubaugasse</node>
+    <node id="neue donau">Neue Donau</node>
+    <node id="neulaa">Neulaa</node>
+    <node id="niederhofstraße">Niederhofstraße</node>
+    <node id="nußdorfer straße">Nußdorfer Straße</node>
+    <node id="ober st. veit">Ober St. Veit</node>
+    <node id="oberlaa">Oberlaa</node>
+    <node id="ottakring">Ottakring</node>
+    <node id="perfektastraße">Perfektastraße</node>
+    <node id="pilgramgasse">Pilgramgasse</node>
+    <node id="praterstern">Praterstern</node>
+    <node id="rathaus">Rathaus</node>
+    <node id="rennbahnweg">Rennbahnweg</node>
+    <node id="reumannplatz">Reumannplatz</node>
+    <node id="rochusgasse">Rochusgasse</node>
+    <node id="roßauer lände">Roßauer Lände</node>
+    <node id="schlachthausgasse">Schlachthausgasse</node>
+    <node id="schottenring">Schottenring</node>
+    <node id="schottentor">Schottentor</node>
+    <node id="schwedenplatz">Schwedenplatz</node>
+    <node id="schweglerstraße">Schweglerstraße</node>
+    <node id="schönbrunn">Schönbrunn</node>
+    <node id="seestadt">Seestadt</node>
+    <node id="siebenhirten">Siebenhirten</node>
+    <node id="simmering">Simmering</node>
+    <node id="spittelau">Spittelau</node>
+    <node id="stadion">Stadion</node>
+    <node id="stadlau">Stadlau</node>
+    <node id="stadtpark">Stadtpark</node>
+    <node id="stephansplatz">Stephansplatz</node>
+    <node id="stubentor">Stubentor</node>
+    <node id="südtiroler platz-hauptbahnhof">Südtiroler Platz-Hauptbahnhof</node>
+    <node id="taborstraße">Taborstraße</node>
+    <node id="taubstummengasse">Taubstummengasse</node>
+    <node id="thaliastraße">Thaliastraße</node>
+    <node id="troststraße">Troststraße</node>
+    <node id="tscherttegasse">Tscherttegasse</node>
+    <node id="unter st. veit">Unter St. Veit</node>
+    <node id="volkstheater">Volkstheater</node>
+    <node id="vorgartenstraße">Vorgartenstraße</node>
+    <node id="westbahnhof">Westbahnhof</node>
+    <node id="währinger straße-volksoper">Währinger Straße-Volksoper</node>
+    <node id="zieglergasse">Zieglergasse</node>
+    <node id="zippererstraße">Zippererstraße</node>
+    <metroline color="#E20613" id="u1">U1</metroline>
+    <metroline color="#A762A4" id="u2">U2</metroline>
+    <metroline color="#EF7C00" id="u3">U3</metroline>
+    <metroline color="#029540" id="u4">U4</metroline>
+    <metroline color="#9C6830" id="u6">U6</metroline>
+    <edge id="e1" source="oberlaa" target="neulaa">u1</edge>
+    <edge id="e2" source="neulaa" target="alaudagasse">u1</edge>
+    <edge id="e3" source="alaudagasse" target="altes landgut">u1</edge>
+    <edge id="e4" source="altes landgut" target="troststraße">u1</edge>
+    <edge id="e5" source="troststraße" target="reumannplatz">u1</edge>
+    <edge id="e6" source="reumannplatz" target="keplerplatz">u1</edge>
+    <edge id="e7" source="keplerplatz" target="südtiroler platz-hauptbahnhof">u1</edge>
+    <edge id="e8" source="südtiroler platz-hauptbahnhof" target="taubstummengasse">u1</edge>
+    <edge id="e9" source="taubstummengasse" target="karlsplatz">u1</edge>
+    <edge id="e10" source="karlsplatz" target="stephansplatz">u1</edge>
+    <edge id="e11" source="stephansplatz" target="schwedenplatz">u1</edge>
+    <edge id="e12" source="schwedenplatz" target="nestroyplatz">u1</edge>
+    <edge id="e13" source="nestroyplatz" target="praterstern">u1</edge>
+    <edge id="e14" source="praterstern" target="vorgartenstraße">u1</edge>
+    <edge id="e15" source="vorgartenstraße" target="donauinsel">u1</edge>
+    <edge id="e16" source="donauinsel" target="kaisermühlen vic">u1</edge>
+    <edge id="e17" source="kaisermühlen vic" target="alte donau">u1</edge>
+    <edge id="e18" source="alte donau" target="kagran">u1</edge>
+    <edge id="e19" source="kagran" target="kagraner platz">u1</edge>
+    <edge id="e20" source="kagraner platz" target="rennbahnweg">u1</edge>
+    <edge id="e21" source="rennbahnweg" target="aderklaaer straße">u1</edge>
+    <edge id="e22" source="aderklaaer straße" target="großfeldsiedlung">u1</edge>
+    <edge id="e23" source="großfeldsiedlung" target="leopoldau">u1</edge>
+    <edge id="e24" source="karlsplatz" target="museumsquartier">u2</edge>
+    <edge id="e25" source="museumsquartier" target="volkstheater">u2</edge>
+    <edge id="e26" source="volkstheater" target="rathaus">u2</edge>
+    <edge id="e27" source="rathaus" target="schottentor">u2</edge>
+    <edge id="e28" source="schottentor" target="schottenring">u2</edge>
+    <edge id="e29" source="schottenring" target="taborstraße">u2</edge>
+    <edge id="e30" source="taborstraße" target="praterstern">u2</edge>
+    <edge id="e31" source="praterstern" target="messe-prater">u2</edge>
+    <edge id="e32" source="messe-prater" target="krieau">u2</edge>
+    <edge id="e33" source="krieau" target="stadion">u2</edge>
+    <edge id="e34" source="stadion" target="donaumarina">u2</edge>
+    <edge id="e35" source="donaumarina" target="donaustadtbrücke">u2</edge>
+    <edge id="e36" source="donaustadtbrücke" target="stadlau">u2</edge>
+    <edge id="e37" source="stadlau" target="hardeggasse">u2</edge>
+    <edge id="e38" source="hardeggasse" target="donauspital">u2</edge>
+    <edge id="e39" source="donauspital" target="aspernstraße">u2</edge>
+    <edge id="e40" source="aspernstraße" target="hausfeldstraße">u2</edge>
+    <edge id="e41" source="hausfeldstraße" target="aspern nord">u2</edge>
+    <edge id="e42" source="aspern nord" target="seestadt">u2</edge>
+    <edge id="e43" source="ottakring" target="kendlerstraße">u3</edge>
+    <edge id="e44" source="kendlerstraße" target="hütteldorfer straße">u3</edge>
+    <edge id="e45" source="hütteldorfer straße" target="johnstraße">u3</edge>
+    <edge id="e46" source="johnstraße" target="schweglerstraße">u3</edge>
+    <edge id="e47" source="schweglerstraße" target="westbahnhof">u3</edge>
+    <edge id="e48" source="westbahnhof" target="zieglergasse">u3</edge>
+    <edge id="e49" source="zieglergasse" target="neubaugasse">u3</edge>
+    <edge id="e50" source="neubaugasse" target="volkstheater">u3</edge>
+    <edge id="e51" source="volkstheater" target="herrengasse">u3</edge>
+    <edge id="e52" source="herrengasse" target="stephansplatz">u3</edge>
+    <edge id="e53" source="stephansplatz" target="stubentor">u3</edge>
+    <edge id="e54" source="stubentor" target="landstraße">u3</edge>
+    <edge id="e55" source="landstraße" target="rochusgasse">u3</edge>
+    <edge id="e56" source="rochusgasse" target="kardinal-nagl-platz">u3</edge>
+    <edge id="e57" source="kardinal-nagl-platz" target="schlachthausgasse">u3</edge>
+    <edge id="e58" source="schlachthausgasse" target="erdberg">u3</edge>
+    <edge id="e59" source="erdberg" target="gasometer">u3</edge>
+    <edge id="e60" source="gasometer" target="zippererstraße">u3</edge>
+    <edge id="e61" source="zippererstraße" target="enkplatz">u3</edge>
+    <edge id="e62" source="enkplatz" target="simmering">u3</edge>
+    <edge id="e63" source="hütteldorf" target="ober st. veit">u4</edge>
+    <edge id="e64" source="ober st. veit" target="unter st. veit">u4</edge>
+    <edge id="e65" source="unter st. veit" target="braunschweiggasse">u4</edge>
+    <edge id="e66" source="braunschweiggasse" target="hietzing">u4</edge>
+    <edge id="e67" source="hietzing" target="schönbrunn">u4</edge>
+    <edge id="e68" source="schönbrunn" target="meidling hauptstraße">u4</edge>
+    <edge id="e69" source="meidling hauptstraße" target="längenfeldgasse">u4</edge>
+    <edge id="e70" source="längenfeldgasse" target="margaretengürtel">u4</edge>
+    <edge id="e71" source="margaretengürtel" target="pilgramgasse">u4</edge>
+    <edge id="e72" source="pilgramgasse" target="kettenbrückengasse">u4</edge>
+    <edge id="e73" source="kettenbrückengasse" target="karlsplatz">u4</edge>
+    <edge id="e74" source="karlsplatz" target="stadtpark">u4</edge>
+    <edge id="e75" source="stadtpark" target="landstraße">u4</edge>
+    <edge id="e76" source="landstraße" target="schwedenplatz">u4</edge>
+    <edge id="e77" source="schwedenplatz" target="schottenring">u4</edge>
+    <edge id="e78" source="schottenring" target="roßauer lände">u4</edge>
+    <edge id="e79" source="roßauer lände" target="friedensbrücke">u4</edge>
+    <edge id="e80" source="friedensbrücke" target="spittelau">u4</edge>
+    <edge id="e81" source="spittelau" target="heiligenstadt">u4</edge>
+    <edge id="e82" source="siebenhirten" target="perfektastraße">u6</edge>
+    <edge id="e83" source="perfektastraße" target="erlaaer straße">u6</edge>
+    <edge id="e84" source="erlaaer straße" target="alterlaa">u6</edge>
+    <edge id="e85" source="alterlaa" target="am schöpfwerk">u6</edge>
+    <edge id="e86" source="am schöpfwerk" target="tscherttegasse">u6</edge>
+    <edge id="e87" source="tscherttegasse" target="bahnhof meidling">u6</edge>
+    <edge id="e88" source="bahnhof meidling" target="niederhofstraße">u6</edge>
+    <edge id="e89" source="niederhofstraße" target="längenfeldgasse">u6</edge>
+    <edge id="e90" source="längenfeldgasse" target="gumpendorfer straße">u6</edge>
+    <edge id="e91" source="gumpendorfer straße" target="westbahnhof">u6</edge>
+    <edge id="e92" source="westbahnhof" target="burggasse-stadthalle">u6</edge>
+    <edge id="e93" source="burggasse-stadthalle" target="thaliastraße">u6</edge>
+    <edge id="e94" source="thaliastraße" target="josefstädter straße">u6</edge>
+    <edge id="e95" source="josefstädter straße" target="alser straße">u6</edge>
+    <edge id="e96" source="alser straße" target="michelbeuern-akh">u6</edge>
+    <edge id="e97" source="michelbeuern-akh" target="währinger straße-volksoper">u6</edge>
+    <edge id="e98" source="währinger straße-volksoper" target="nußdorfer straße">u6</edge>
+    <edge id="e99" source="nußdorfer straße" target="spittelau">u6</edge>
+    <edge id="e100" source="spittelau" target="jägerstraße">u6</edge>
+    <edge id="e101" source="jägerstraße" target="dresdner straße">u6</edge>
+    <edge id="e102" source="dresdner straße" target="handelskai">u6</edge>
+    <edge id="e103" source="handelskai" target="neue donau">u6</edge>
+    <edge id="e104" source="neue donau" target="floridsdorf">u6</edge>
+  </graph>
+  <geometricembedding height="903" id="ge1" width="1000">
+    <metroline edge="e1" id="u1" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.886275 0.023529 0.074510">555.734787 787.502260 m 503.859891 768.701332 l</path>
+    </metroline>
+    <metroline edge="e2" id="u1" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.886275 0.023529 0.074510">503.859891 768.701332 m 492.249310 725.688775 l</path>
+    </metroline>
+    <metroline edge="e3" id="u1" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.886275 0.023529 0.074510">492.249310 725.688775 m 495.805573 678.564665 l</path>
+    </metroline>
+    <metroline edge="e4" id="u1" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.886275 0.023529 0.074510">495.805573 678.564665 m 485.024060 642.075500 l</path>
+    </metroline>
+    <metroline edge="e5" id="u1" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.886275 0.023529 0.074510">485.024060 642.075500 m 475.951589 609.856620 l</path>
+    </metroline>
+    <metroline edge="e6" id="u1" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.886275 0.023529 0.074510">475.951589 609.856620 m 469.468136 585.781366 l</path>
+    </metroline>
+    <metroline edge="e7" id="u1" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.886275 0.023529 0.074510">469.468136 585.781366 m 460.290214 543.673316 l</path>
+    </metroline>
+    <metroline edge="e8" id="u1" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.886275 0.023529 0.074510">460.290214 543.673316 m 448.741450 507.641110 l</path>
+    </metroline>
+    <metroline edge="e9" id="u1" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.886275 0.023529 0.074510">448.741450 507.641110 m 444.410663 464.375598 l</path>
+    </metroline>
+    <metroline edge="e10" id="u1" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.886275 0.023529 0.074510">444.410663 464.375598 m 452.828607 429.331680 l</path>
+    </metroline>
+    <metroline edge="e11" id="u1" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.886275 0.023529 0.074510">452.828607 429.331680 m 476.442484 408.946025 l</path>
+    </metroline>
+    <metroline edge="e12" id="u1" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.886275 0.023529 0.074510">476.442484 408.946025 m 503.714440 389.884965 l</path>
+    </metroline>
+    <metroline edge="e13" id="u1" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.886275 0.023529 0.074510">503.714440 389.884965 m 530.804583 365.823499 l</path>
+    </metroline>
+    <metroline edge="e14" id="u1" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.886275 0.023529 0.074510">530.804583 365.823499 m 559.978304 344.347069 l</path>
+    </metroline>
+    <metroline edge="e15" id="u1" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.886275 0.023529 0.074510">559.978304 344.347069 m 597.639057 313.987986 l</path>
+    </metroline>
+    <metroline edge="e16" id="u1" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.886275 0.023529 0.074510">597.639057 313.987986 m 615.820361 294.172566 l</path>
+    </metroline>
+    <metroline edge="e17" id="u1" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.886275 0.023529 0.074510">615.820361 294.172566 m 646.212228 264.446799 l</path>
+    </metroline>
+    <metroline edge="e18" id="u1" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.886275 0.023529 0.074510">646.212228 264.446799 m 676.025931 238.883932 l</path>
+    </metroline>
+    <metroline edge="e19" id="u1" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.886275 0.023529 0.074510">676.025931 238.883932 m 713.690320 199.251948 l</path>
+    </metroline>
+    <metroline edge="e20" id="u1" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.886275 0.023529 0.074510">713.690320 199.251948 m 736.835120 158.920713 l</path>
+    </metroline>
+    <metroline edge="e21" id="u1" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.886275 0.023529 0.074510">736.835120 158.920713 m 744.100369 127.028426 l</path>
+    </metroline>
+    <metroline edge="e22" id="u1" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.886275 0.023529 0.074510">744.100369 127.028426 m 730.435301 85.020522 l</path>
+    </metroline>
+    <metroline edge="e23" id="u1" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.886275 0.023529 0.074510">730.435301 85.020522 m 745.438513 50.000000 l</path>
+    </metroline>
+    <metroline edge="e24" id="u2" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.654902 0.384314 0.643137">444.410663 464.375598 m 415.138764 458.488876 l</path>
+    </metroline>
+    <metroline edge="e25" id="u2" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.654902 0.384314 0.643137">415.138764 458.488876 m 407.764427 442.606657 l</path>
+    </metroline>
+    <metroline edge="e26" id="u2" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.654902 0.384314 0.643137">407.764427 442.606657 m 393.993907 418.124119 l</path>
+    </metroline>
+    <metroline edge="e27" id="u2" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.654902 0.384314 0.643137">393.993907 418.124119 m 421.400405 391.358383 l</path>
+    </metroline>
+    <metroline edge="e28" id="u2" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.654902 0.384314 0.643137">421.400405 391.358383 m 455.203085 379.259756 l</path>
+    </metroline>
+    <metroline edge="e29" id="u2" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.654902 0.384314 0.643137">455.203085 379.259756 m 489.373028 368.967052 l</path>
+    </metroline>
+    <metroline edge="e30" id="u2" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.654902 0.384314 0.643137">489.373028 368.967052 m 530.804583 365.823499 l</path>
+    </metroline>
+    <metroline edge="e31" id="u2" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.654902 0.384314 0.643137">530.804583 365.823499 m 574.003362 376.574739 l</path>
+    </metroline>
+    <metroline edge="e32" id="u2" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.654902 0.384314 0.643137">574.003362 376.574739 m 605.835188 393.322928 l</path>
+    </metroline>
+    <metroline edge="e33" id="u2" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.654902 0.384314 0.643137">605.835188 393.322928 m 630.132683 416.421665 l</path>
+    </metroline>
+    <metroline edge="e34" id="u2" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.654902 0.384314 0.643137">630.132683 416.421665 m 670.549722 438.530930 l</path>
+    </metroline>
+    <metroline edge="e35" id="u2" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.654902 0.384314 0.643137">670.549722 438.530930 m 702.210645 408.918741 l</path>
+    </metroline>
+    <metroline edge="e36" id="u2" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.654902 0.384314 0.643137">702.210645 408.918741 m 736.471494 365.659772 l</path>
+    </metroline>
+    <metroline edge="e37" id="u2" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.654902 0.384314 0.643137">736.471494 365.659772 m 766.088838 359.574492 l</path>
+    </metroline>
+    <metroline edge="e38" id="u2" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.654902 0.384314 0.643137">766.088838 359.574492 m 798.229747 367.509889 l</path>
+    </metroline>
+    <metroline edge="e39" id="u2" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.654902 0.384314 0.643137">798.229747 367.509889 m 828.774338 350.148869 l</path>
+    </metroline>
+    <metroline edge="e40" id="u2" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.654902 0.384314 0.643137">828.774338 350.148869 m 867.973229 291.164648 l</path>
+    </metroline>
+    <metroline edge="e41" id="u2" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.654902 0.384314 0.643137">867.973229 291.164648 m 936.087666 285.307030 l</path>
+    </metroline>
+    <metroline edge="e42" id="u2" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.654902 0.384314 0.643137">936.087666 285.307030 m 950.000000 329.833852 l</path>
+    </metroline>
+    <metroline edge="e43" id="u3" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.937255 0.486275 0.000000">233.671169 413.049467 m 225.300497 448.231826 l</path>
+    </metroline>
+    <metroline edge="e44" id="u3" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.937255 0.486275 0.000000">225.300497 448.231826 m 233.718440 474.659333 l</path>
+    </metroline>
+    <metroline edge="e45" id="u3" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.937255 0.486275 0.000000">233.718440 474.659333 m 265.652083 486.546532 l</path>
+    </metroline>
+    <metroline edge="e46" id="u3" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.937255 0.486275 0.000000">265.652083 486.546532 m 296.902108 486.895666 l</path>
+    </metroline>
+    <metroline edge="e47" id="u3" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.937255 0.486275 0.000000">296.902108 486.895666 m 330.366616 496.294858 l</path>
+    </metroline>
+    <metroline edge="e48" id="u3" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.937255 0.486275 0.000000">330.366616 496.294858 m 360.823936 488.979554 l</path>
+    </metroline>
+    <metroline edge="e49" id="u3" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.937255 0.486275 0.000000">360.823936 488.979554 m 383.477841 477.556168 l</path>
+    </metroline>
+    <metroline edge="e50" id="u3" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.937255 0.486275 0.000000">383.477841 477.556168 m 407.764427 442.606657 l</path>
+    </metroline>
+    <metroline edge="e51" id="u3" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.937255 0.486275 0.000000">407.764427 442.606657 m 429.294727 422.871291 l</path>
+    </metroline>
+    <metroline edge="e52" id="u3" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.937255 0.486275 0.000000">429.294727 422.871291 m 452.828607 429.331680 l</path>
+    </metroline>
+    <metroline edge="e53" id="u3" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.937255 0.486275 0.000000">452.828607 429.331680 m 480.398736 435.655515 l</path>
+    </metroline>
+    <metroline edge="e54" id="u3" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.937255 0.486275 0.000000">480.398736 435.655515 m 503.888981 441.962838 l</path>
+    </metroline>
+    <metroline edge="e55" id="u3" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.937255 0.486275 0.000000">503.888981 441.962838 m 527.775578 462.024198 l</path>
+    </metroline>
+    <metroline edge="e56" id="u3" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.937255 0.486275 0.000000">527.775578 462.024198 m 555.512975 486.682913 l</path>
+    </metroline>
+    <metroline edge="e57" id="u3" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.937255 0.486275 0.000000">555.512975 486.682913 m 580.417726 503.948173 l</path>
+    </metroline>
+    <metroline edge="e58" id="u3" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.937255 0.486275 0.000000">580.417726 503.948173 m 607.271512 520.126909 l</path>
+    </metroline>
+    <metroline edge="e59" id="u3" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.937255 0.486275 0.000000">607.271512 520.126909 m 619.496620 554.237737 l</path>
+    </metroline>
+    <metroline edge="e60" id="u3" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.937255 0.486275 0.000000">619.496620 554.237737 m 598.551758 580.442541 l</path>
+    </metroline>
+    <metroline edge="e61" id="u3" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.937255 0.486275 0.000000">598.551758 580.442541 m 609.086006 611.552443 l</path>
+    </metroline>
+    <metroline edge="e62" id="u3" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.937255 0.486275 0.000000">609.086006 611.552443 m 630.489037 638.291651 l</path>
+    </metroline>
+    <metroline edge="e63" id="u4" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.007843 0.584314 0.250980">50.000000 490.119685 m 105.754787 515.675941 l</path>
+    </metroline>
+    <metroline edge="e64" id="u4" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.007843 0.584314 0.250980">105.754787 515.675941 m 142.808284 522.046913 l</path>
+    </metroline>
+    <metroline edge="e65" id="u4" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.007843 0.584314 0.250980">142.808284 522.046913 m 177.149131 531.106752 l</path>
+    </metroline>
+    <metroline edge="e66" id="u4" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.007843 0.584314 0.250980">177.149131 531.106752 m 209.024593 541.066236 l</path>
+    </metroline>
+    <metroline edge="e67" id="u4" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.007843 0.584314 0.250980">209.024593 541.066236 m 261.644923 549.569152 l</path>
+    </metroline>
+    <metroline edge="e68" id="u4" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.007843 0.584314 0.250980">261.644923 549.569152 m 294.567628 562.920225 l</path>
+    </metroline>
+    <metroline edge="e69" id="u4" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.007843 0.584314 0.250980">294.567628 562.920225 m 319.952365 555.568487 l</path>
+    </metroline>
+    <metroline edge="e70" id="u4" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.007843 0.584314 0.250980">319.952365 555.568487 m 348.860638 536.119264 l</path>
+    </metroline>
+    <metroline edge="e71" id="u4" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.007843 0.584314 0.250980">348.860638 536.119264 m 389.983112 516.063222 l</path>
+    </metroline>
+    <metroline edge="e72" id="u4" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.007843 0.584314 0.250980">389.983112 516.063222 m 403.775449 491.679856 l</path>
+    </metroline>
+    <metroline edge="e73" id="u4" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.007843 0.584314 0.250980">403.775449 491.679856 m 444.410663 464.375598 l</path>
+    </metroline>
+    <metroline edge="e74" id="u4" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.007843 0.584314 0.250980">444.410663 464.375598 m 482.827758 457.163119 l</path>
+    </metroline>
+    <metroline edge="e75" id="u4" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.007843 0.584314 0.250980">482.827758 457.163119 m 503.888981 441.962838 l</path>
+    </metroline>
+    <metroline edge="e76" id="u4" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.007843 0.584314 0.250980">503.888981 441.962838 m 476.442484 408.946025 l</path>
+    </metroline>
+    <metroline edge="e77" id="u4" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.007843 0.584314 0.250980">476.442484 408.946025 m 455.203085 379.259756 l</path>
+    </metroline>
+    <metroline edge="e78" id="u4" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.007843 0.584314 0.250980">455.203085 379.259756 m 438.236292 351.349603 l</path>
+    </metroline>
+    <metroline edge="e79" id="u4" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.007843 0.584314 0.250980">438.236292 351.349603 m 425.763918 321.662672 l</path>
+    </metroline>
+    <metroline edge="e80" id="u4" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.007843 0.584314 0.250980">425.763918 321.662672 m 405.411766 281.966004 l</path>
+    </metroline>
+    <metroline edge="e81" id="u4" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.007843 0.584314 0.250980">405.411766 281.966004 m 432.349186 207.492238 l</path>
+    </metroline>
+    <metroline edge="e82" id="u6" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.611765 0.407843 0.188235">228.314957 852.146012 m 240.707334 818.856127 l</path>
+    </metroline>
+    <metroline edge="e83" id="u6" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.611765 0.407843 0.188235">240.707334 818.856127 m 252.623360 789.567560 l</path>
+    </metroline>
+    <metroline edge="e84" id="u6" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.611765 0.407843 0.188235">252.623360 789.567560 m 253.954232 743.162743 l</path>
+    </metroline>
+    <metroline edge="e85" id="u6" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.611765 0.407843 0.188235">253.954232 743.162743 m 280.546207 687.728460 l</path>
+    </metroline>
+    <metroline edge="e86" id="u6" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.611765 0.407843 0.188235">280.546207 687.728460 m 293.593110 664.275960 l</path>
+    </metroline>
+    <metroline edge="e87" id="u6" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.611765 0.407843 0.188235">293.593110 664.275960 m 307.058184 617.654050 l</path>
+    </metroline>
+    <metroline edge="e88" id="u6" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.611765 0.407843 0.188235">307.058184 617.654050 m 306.050940 578.217545 l</path>
+    </metroline>
+    <metroline edge="e89" id="u6" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.611765 0.407843 0.188235">306.050940 578.217545 m 319.952365 555.568487 l</path>
+    </metroline>
+    <metroline edge="e90" id="u6" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.611765 0.407843 0.188235">319.952365 555.568487 m 329.061198 523.803268 l</path>
+    </metroline>
+    <metroline edge="e91" id="u6" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.611765 0.407843 0.188235">329.061198 523.803268 m 330.366616 496.294858 l</path>
+    </metroline>
+    <metroline edge="e92" id="u6" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.611765 0.407843 0.188235">330.366616 496.294858 m 327.955775 457.026724 l</path>
+    </metroline>
+    <metroline edge="e93" id="u6" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.611765 0.407843 0.188235">327.955775 457.026724 m 330.741151 430.739414 l</path>
+    </metroline>
+    <metroline edge="e94" id="u6" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.611765 0.407843 0.188235">330.741151 430.739414 m 334.981031 410.724918 l</path>
+    </metroline>
+    <metroline edge="e95" id="u6" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.611765 0.407843 0.188235">334.981031 410.724918 m 344.595304 381.824687 l</path>
+    </metroline>
+    <metroline edge="e96" id="u6" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.611765 0.407843 0.188235">344.595304 381.824687 m 353.253241 357.893513 l</path>
+    </metroline>
+    <metroline edge="e97" id="u6" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.611765 0.407843 0.188235">353.253241 357.893513 m 372.612694 333.452675 l</path>
+    </metroline>
+    <metroline edge="e98" id="u6" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.611765 0.407843 0.188235">372.612694 333.452675 m 383.281483 302.344550 l</path>
+    </metroline>
+    <metroline edge="e99" id="u6" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.611765 0.407843 0.188235">383.281483 302.344550 m 405.411766 281.966004 l</path>
+    </metroline>
+    <metroline edge="e100" id="u6" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.611765 0.407843 0.188235">405.411766 281.966004 m 442.145273 281.430999 l</path>
+    </metroline>
+    <metroline edge="e101" id="u6" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.611765 0.407843 0.188235">442.145273 281.430999 m 484.405896 269.879017 l</path>
+    </metroline>
+    <metroline edge="e102" id="u6" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.611765 0.407843 0.188235">484.405896 269.879017 m 503.052641 245.637954 l</path>
+    </metroline>
+    <metroline edge="e103" id="u6" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.611765 0.407843 0.188235">503.052641 245.637954 m 536.917138 220.586646 l</path>
+    </metroline>
+    <metroline edge="e104" id="u6" type="ipe">
+      <path cap="1" join="1" pen="1.0" stroke="0.611765 0.407843 0.188235">536.917138 220.586646 m 558.123811 166.703429 l</path>
+    </metroline>
+    <node id="karlsplatz" type="ipe">
+      <path fill="0.000000 0.000000 0.000000">1.3333333730697632 0 0 1.3333333730697632 444.410663 464.375598 e</path>
+    </node>
+    <node id="karlsplatz" type="ipe">
+      <path fill="1.000000 1.000000 1.000000">0.9523810148239136 0 0 0.9523810148239136 444.410663 464.375598 e</path>
+    </node>
+    <node id="landstraße" type="ipe">
+      <path fill="0.000000 0.000000 0.000000">1.3333333730697632 0 0 1.3333333730697632 503.888981 441.962838 e</path>
+    </node>
+    <node id="landstraße" type="ipe">
+      <path fill="1.000000 1.000000 1.000000">0.9523810148239136 0 0 0.9523810148239136 503.888981 441.962838 e</path>
+    </node>
+    <node id="längenfeldgasse" type="ipe">
+      <path fill="0.000000 0.000000 0.000000">1.3333333730697632 0 0 1.3333333730697632 319.952365 555.568487 e</path>
+    </node>
+    <node id="längenfeldgasse" type="ipe">
+      <path fill="1.000000 1.000000 1.000000">0.9523810148239136 0 0 0.9523810148239136 319.952365 555.568487 e</path>
+    </node>
+    <node id="praterstern" type="ipe">
+      <path fill="0.000000 0.000000 0.000000">1.3333333730697632 0 0 1.3333333730697632 530.804583 365.823499 e</path>
+    </node>
+    <node id="praterstern" type="ipe">
+      <path fill="1.000000 1.000000 1.000000">0.9523810148239136 0 0 0.9523810148239136 530.804583 365.823499 e</path>
+    </node>
+    <node id="schottenring" type="ipe">
+      <path fill="0.000000 0.000000 0.000000">1.3333333730697632 0 0 1.3333333730697632 455.203085 379.259756 e</path>
+    </node>
+    <node id="schottenring" type="ipe">
+      <path fill="1.000000 1.000000 1.000000">0.9523810148239136 0 0 0.9523810148239136 455.203085 379.259756 e</path>
+    </node>
+    <node id="schwedenplatz" type="ipe">
+      <path fill="0.000000 0.000000 0.000000">1.3333333730697632 0 0 1.3333333730697632 476.442484 408.946025 e</path>
+    </node>
+    <node id="schwedenplatz" type="ipe">
+      <path fill="1.000000 1.000000 1.000000">0.9523810148239136 0 0 0.9523810148239136 476.442484 408.946025 e</path>
+    </node>
+    <node id="spittelau" type="ipe">
+      <path fill="0.000000 0.000000 0.000000">1.3333333730697632 0 0 1.3333333730697632 405.411766 281.966004 e</path>
+    </node>
+    <node id="spittelau" type="ipe">
+      <path fill="1.000000 1.000000 1.000000">0.9523810148239136 0 0 0.9523810148239136 405.411766 281.966004 e</path>
+    </node>
+    <node id="stephansplatz" type="ipe">
+      <path fill="0.000000 0.000000 0.000000">1.3333333730697632 0 0 1.3333333730697632 452.828607 429.33168 e</path>
+    </node>
+    <node id="stephansplatz" type="ipe">
+      <path fill="1.000000 1.000000 1.000000">0.9523810148239136 0 0 0.9523810148239136 452.828607 429.33168 e</path>
+    </node>
+    <node id="volkstheater" type="ipe">
+      <path fill="0.000000 0.000000 0.000000">1.3333333730697632 0 0 1.3333333730697632 407.764427 442.606657 e</path>
+    </node>
+    <node id="volkstheater" type="ipe">
+      <path fill="1.000000 1.000000 1.000000">0.9523810148239136 0 0 0.9523810148239136 407.764427 442.606657 e</path>
+    </node>
+    <node id="westbahnhof" type="ipe">
+      <path fill="0.000000 0.000000 0.000000">1.3333333730697632 0 0 1.3333333730697632 330.366616 496.294858 e</path>
+    </node>
+    <node id="westbahnhof" type="ipe">
+      <path fill="1.000000 1.000000 1.000000">0.9523810148239136 0 0 0.9523810148239136 330.366616 496.294858 e</path>
+    </node>
+    <node id="floridsdorf" type="ipe">
+      <path fill="0.611765 0.407843 0.188235">0.9523810148239136 0 0 0.9523810148239136 558.123811 166.703429 e</path>
+    </node>
+    <node id="heiligenstadt" type="ipe">
+      <path fill="0.007843 0.584314 0.250980">0.9523810148239136 0 0 0.9523810148239136 432.349186 207.492238 e</path>
+    </node>
+    <node id="hütteldorf" type="ipe">
+      <path fill="0.007843 0.584314 0.250980">0.9523810148239136 0 0 0.9523810148239136 50.0 490.119685 e</path>
+    </node>
+    <node id="leopoldau" type="ipe">
+      <path fill="0.886275 0.023529 0.074510">0.9523810148239136 0 0 0.9523810148239136 745.438513 50.0 e</path>
+    </node>
+    <node id="oberlaa" type="ipe">
+      <path fill="0.886275 0.023529 0.074510">0.9523810148239136 0 0 0.9523810148239136 555.734787 787.50226 e</path>
+    </node>
+    <node id="ottakring" type="ipe">
+      <path fill="0.937255 0.486275 0.000000">0.9523810148239136 0 0 0.9523810148239136 233.671169 413.049467 e</path>
+    </node>
+    <node id="seestadt" type="ipe">
+      <path fill="0.654902 0.384314 0.643137">0.9523810148239136 0 0 0.9523810148239136 950.0 329.833852 e</path>
+    </node>
+    <node id="siebenhirten" type="ipe">
+      <path fill="0.611765 0.407843 0.188235">0.9523810148239136 0 0 0.9523810148239136 228.314957 852.146012 e</path>
+    </node>
+    <node id="simmering" type="ipe">
+      <path fill="0.937255 0.486275 0.000000">0.9523810148239136 0 0 0.9523810148239136 630.489037 638.291651 e</path>
+    </node>
+    <node id="aderklaaer straße" type="ipe">
+      <path fill="0.886275 0.023529 0.074510">0.9523810148239136 0 0 0.9523810148239136 744.100369 127.028426 e</path>
+    </node>
+    <node id="alaudagasse" type="ipe">
+      <path fill="0.886275 0.023529 0.074510">0.9523810148239136 0 0 0.9523810148239136 492.24931 725.688775 e</path>
+    </node>
+    <node id="alser straße" type="ipe">
+      <path fill="0.611765 0.407843 0.188235">0.9523810148239136 0 0 0.9523810148239136 344.595304 381.824687 e</path>
+    </node>
+    <node id="alte donau" type="ipe">
+      <path fill="0.886275 0.023529 0.074510">0.9523810148239136 0 0 0.9523810148239136 646.212228 264.446799 e</path>
+    </node>
+    <node id="alterlaa" type="ipe">
+      <path fill="0.611765 0.407843 0.188235">0.9523810148239136 0 0 0.9523810148239136 253.954232 743.162743 e</path>
+    </node>
+    <node id="altes landgut" type="ipe">
+      <path fill="0.886275 0.023529 0.074510">0.9523810148239136 0 0 0.9523810148239136 495.805573 678.564665 e</path>
+    </node>
+    <node id="am schöpfwerk" type="ipe">
+      <path fill="0.611765 0.407843 0.188235">0.9523810148239136 0 0 0.9523810148239136 280.546207 687.72846 e</path>
+    </node>
+    <node id="aspern nord" type="ipe">
+      <path fill="0.654902 0.384314 0.643137">0.9523810148239136 0 0 0.9523810148239136 936.087666 285.30703 e</path>
+    </node>
+    <node id="aspernstraße" type="ipe">
+      <path fill="0.654902 0.384314 0.643137">0.9523810148239136 0 0 0.9523810148239136 828.774338 350.148869 e</path>
+    </node>
+    <node id="bahnhof meidling" type="ipe">
+      <path fill="0.611765 0.407843 0.188235">0.9523810148239136 0 0 0.9523810148239136 307.058184 617.65405 e</path>
+    </node>
+    <node id="braunschweiggasse" type="ipe">
+      <path fill="0.007843 0.584314 0.250980">0.9523810148239136 0 0 0.9523810148239136 177.149131 531.106752 e</path>
+    </node>
+    <node id="burggasse-stadthalle" type="ipe">
+      <path fill="0.611765 0.407843 0.188235">0.9523810148239136 0 0 0.9523810148239136 327.955775 457.026724 e</path>
+    </node>
+    <node id="donauinsel" type="ipe">
+      <path fill="0.886275 0.023529 0.074510">0.9523810148239136 0 0 0.9523810148239136 597.639057 313.987986 e</path>
+    </node>
+    <node id="donaumarina" type="ipe">
+      <path fill="0.654902 0.384314 0.643137">0.9523810148239136 0 0 0.9523810148239136 670.549722 438.53093 e</path>
+    </node>
+    <node id="donauspital" type="ipe">
+      <path fill="0.654902 0.384314 0.643137">0.9523810148239136 0 0 0.9523810148239136 798.229747 367.509889 e</path>
+    </node>
+    <node id="donaustadtbrücke" type="ipe">
+      <path fill="0.654902 0.384314 0.643137">0.9523810148239136 0 0 0.9523810148239136 702.210645 408.918741 e</path>
+    </node>
+    <node id="dresdner straße" type="ipe">
+      <path fill="0.611765 0.407843 0.188235">0.9523810148239136 0 0 0.9523810148239136 484.405896 269.879017 e</path>
+    </node>
+    <node id="enkplatz" type="ipe">
+      <path fill="0.937255 0.486275 0.000000">0.9523810148239136 0 0 0.9523810148239136 609.086006 611.552443 e</path>
+    </node>
+    <node id="erdberg" type="ipe">
+      <path fill="0.937255 0.486275 0.000000">0.9523810148239136 0 0 0.9523810148239136 607.271512 520.126909 e</path>
+    </node>
+    <node id="erlaaer straße" type="ipe">
+      <path fill="0.611765 0.407843 0.188235">0.9523810148239136 0 0 0.9523810148239136 252.62336 789.56756 e</path>
+    </node>
+    <node id="friedensbrücke" type="ipe">
+      <path fill="0.007843 0.584314 0.250980">0.9523810148239136 0 0 0.9523810148239136 425.763918 321.662672 e</path>
+    </node>
+    <node id="gasometer" type="ipe">
+      <path fill="0.937255 0.486275 0.000000">0.9523810148239136 0 0 0.9523810148239136 619.49662 554.237737 e</path>
+    </node>
+    <node id="großfeldsiedlung" type="ipe">
+      <path fill="0.886275 0.023529 0.074510">0.9523810148239136 0 0 0.9523810148239136 730.435301 85.020522 e</path>
+    </node>
+    <node id="gumpendorfer straße" type="ipe">
+      <path fill="0.611765 0.407843 0.188235">0.9523810148239136 0 0 0.9523810148239136 329.061198 523.803268 e</path>
+    </node>
+    <node id="handelskai" type="ipe">
+      <path fill="0.611765 0.407843 0.188235">0.9523810148239136 0 0 0.9523810148239136 503.052641 245.637954 e</path>
+    </node>
+    <node id="hardeggasse" type="ipe">
+      <path fill="0.654902 0.384314 0.643137">0.9523810148239136 0 0 0.9523810148239136 766.088838 359.574492 e</path>
+    </node>
+    <node id="hausfeldstraße" type="ipe">
+      <path fill="0.654902 0.384314 0.643137">0.9523810148239136 0 0 0.9523810148239136 867.973229 291.164648 e</path>
+    </node>
+    <node id="herrengasse" type="ipe">
+      <path fill="0.937255 0.486275 0.000000">0.9523810148239136 0 0 0.9523810148239136 429.294727 422.871291 e</path>
+    </node>
+    <node id="hietzing" type="ipe">
+      <path fill="0.007843 0.584314 0.250980">0.9523810148239136 0 0 0.9523810148239136 209.024593 541.066236 e</path>
+    </node>
+    <node id="hütteldorfer straße" type="ipe">
+      <path fill="0.937255 0.486275 0.000000">0.9523810148239136 0 0 0.9523810148239136 233.71844 474.659333 e</path>
+    </node>
+    <node id="johnstraße" type="ipe">
+      <path fill="0.937255 0.486275 0.000000">0.9523810148239136 0 0 0.9523810148239136 265.652083 486.546532 e</path>
+    </node>
+    <node id="josefstädter straße" type="ipe">
+      <path fill="0.611765 0.407843 0.188235">0.9523810148239136 0 0 0.9523810148239136 334.981031 410.724918 e</path>
+    </node>
+    <node id="jägerstraße" type="ipe">
+      <path fill="0.611765 0.407843 0.188235">0.9523810148239136 0 0 0.9523810148239136 442.145273 281.430999 e</path>
+    </node>
+    <node id="kagran" type="ipe">
+      <path fill="0.886275 0.023529 0.074510">0.9523810148239136 0 0 0.9523810148239136 676.025931 238.883932 e</path>
+    </node>
+    <node id="kagraner platz" type="ipe">
+      <path fill="0.886275 0.023529 0.074510">0.9523810148239136 0 0 0.9523810148239136 713.69032 199.251948 e</path>
+    </node>
+    <node id="kaisermühlen vic" type="ipe">
+      <path fill="0.886275 0.023529 0.074510">0.9523810148239136 0 0 0.9523810148239136 615.820361 294.172566 e</path>
+    </node>
+    <node id="kardinal-nagl-platz" type="ipe">
+      <path fill="0.937255 0.486275 0.000000">0.9523810148239136 0 0 0.9523810148239136 555.512975 486.682913 e</path>
+    </node>
+    <node id="kendlerstraße" type="ipe">
+      <path fill="0.937255 0.486275 0.000000">0.9523810148239136 0 0 0.9523810148239136 225.300497 448.231826 e</path>
+    </node>
+    <node id="keplerplatz" type="ipe">
+      <path fill="0.886275 0.023529 0.074510">0.9523810148239136 0 0 0.9523810148239136 469.468136 585.781366 e</path>
+    </node>
+    <node id="kettenbrückengasse" type="ipe">
+      <path fill="0.007843 0.584314 0.250980">0.9523810148239136 0 0 0.9523810148239136 403.775449 491.679856 e</path>
+    </node>
+    <node id="krieau" type="ipe">
+      <path fill="0.654902 0.384314 0.643137">0.9523810148239136 0 0 0.9523810148239136 605.835188 393.322928 e</path>
+    </node>
+    <node id="margaretengürtel" type="ipe">
+      <path fill="0.007843 0.584314 0.250980">0.9523810148239136 0 0 0.9523810148239136 348.860638 536.119264 e</path>
+    </node>
+    <node id="meidling hauptstraße" type="ipe">
+      <path fill="0.007843 0.584314 0.250980">0.9523810148239136 0 0 0.9523810148239136 294.567628 562.920225 e</path>
+    </node>
+    <node id="messe-prater" type="ipe">
+      <path fill="0.654902 0.384314 0.643137">0.9523810148239136 0 0 0.9523810148239136 574.003362 376.574739 e</path>
+    </node>
+    <node id="michelbeuern-akh" type="ipe">
+      <path fill="0.611765 0.407843 0.188235">0.9523810148239136 0 0 0.9523810148239136 353.253241 357.893513 e</path>
+    </node>
+    <node id="museumsquartier" type="ipe">
+      <path fill="0.654902 0.384314 0.643137">0.9523810148239136 0 0 0.9523810148239136 415.138764 458.488876 e</path>
+    </node>
+    <node id="nestroyplatz" type="ipe">
+      <path fill="0.886275 0.023529 0.074510">0.9523810148239136 0 0 0.9523810148239136 503.71444 389.884965 e</path>
+    </node>
+    <node id="neubaugasse" type="ipe">
+      <path fill="0.937255 0.486275 0.000000">0.9523810148239136 0 0 0.9523810148239136 383.477841 477.556168 e</path>
+    </node>
+    <node id="neue donau" type="ipe">
+      <path fill="0.611765 0.407843 0.188235">0.9523810148239136 0 0 0.9523810148239136 536.917138 220.586646 e</path>
+    </node>
+    <node id="neulaa" type="ipe">
+      <path fill="0.886275 0.023529 0.074510">0.9523810148239136 0 0 0.9523810148239136 503.859891 768.701332 e</path>
+    </node>
+    <node id="niederhofstraße" type="ipe">
+      <path fill="0.611765 0.407843 0.188235">0.9523810148239136 0 0 0.9523810148239136 306.05094 578.217545 e</path>
+    </node>
+    <node id="nußdorfer straße" type="ipe">
+      <path fill="0.611765 0.407843 0.188235">0.9523810148239136 0 0 0.9523810148239136 383.281483 302.34455 e</path>
+    </node>
+    <node id="ober st. veit" type="ipe">
+      <path fill="0.007843 0.584314 0.250980">0.9523810148239136 0 0 0.9523810148239136 105.754787 515.675941 e</path>
+    </node>
+    <node id="perfektastraße" type="ipe">
+      <path fill="0.611765 0.407843 0.188235">0.9523810148239136 0 0 0.9523810148239136 240.707334 818.856127 e</path>
+    </node>
+    <node id="pilgramgasse" type="ipe">
+      <path fill="0.007843 0.584314 0.250980">0.9523810148239136 0 0 0.9523810148239136 389.983112 516.063222 e</path>
+    </node>
+    <node id="rathaus" type="ipe">
+      <path fill="0.654902 0.384314 0.643137">0.9523810148239136 0 0 0.9523810148239136 393.993907 418.124119 e</path>
+    </node>
+    <node id="rennbahnweg" type="ipe">
+      <path fill="0.886275 0.023529 0.074510">0.9523810148239136 0 0 0.9523810148239136 736.83512 158.920713 e</path>
+    </node>
+    <node id="reumannplatz" type="ipe">
+      <path fill="0.886275 0.023529 0.074510">0.9523810148239136 0 0 0.9523810148239136 475.951589 609.85662 e</path>
+    </node>
+    <node id="rochusgasse" type="ipe">
+      <path fill="0.937255 0.486275 0.000000">0.9523810148239136 0 0 0.9523810148239136 527.775578 462.024198 e</path>
+    </node>
+    <node id="roßauer lände" type="ipe">
+      <path fill="0.007843 0.584314 0.250980">0.9523810148239136 0 0 0.9523810148239136 438.236292 351.349603 e</path>
+    </node>
+    <node id="schlachthausgasse" type="ipe">
+      <path fill="0.937255 0.486275 0.000000">0.9523810148239136 0 0 0.9523810148239136 580.417726 503.948173 e</path>
+    </node>
+    <node id="schottentor" type="ipe">
+      <path fill="0.654902 0.384314 0.643137">0.9523810148239136 0 0 0.9523810148239136 421.400405 391.358383 e</path>
+    </node>
+    <node id="schweglerstraße" type="ipe">
+      <path fill="0.937255 0.486275 0.000000">0.9523810148239136 0 0 0.9523810148239136 296.902108 486.895666 e</path>
+    </node>
+    <node id="schönbrunn" type="ipe">
+      <path fill="0.007843 0.584314 0.250980">0.9523810148239136 0 0 0.9523810148239136 261.644923 549.569152 e</path>
+    </node>
+    <node id="stadion" type="ipe">
+      <path fill="0.654902 0.384314 0.643137">0.9523810148239136 0 0 0.9523810148239136 630.132683 416.421665 e</path>
+    </node>
+    <node id="stadlau" type="ipe">
+      <path fill="0.654902 0.384314 0.643137">0.9523810148239136 0 0 0.9523810148239136 736.471494 365.659772 e</path>
+    </node>
+    <node id="stadtpark" type="ipe">
+      <path fill="0.007843 0.584314 0.250980">0.9523810148239136 0 0 0.9523810148239136 482.827758 457.163119 e</path>
+    </node>
+    <node id="stubentor" type="ipe">
+      <path fill="0.937255 0.486275 0.000000">0.9523810148239136 0 0 0.9523810148239136 480.398736 435.655515 e</path>
+    </node>
+    <node id="südtiroler platz-hauptbahnhof" type="ipe">
+      <path fill="0.886275 0.023529 0.074510">0.9523810148239136 0 0 0.9523810148239136 460.290214 543.673316 e</path>
+    </node>
+    <node id="taborstraße" type="ipe">
+      <path fill="0.654902 0.384314 0.643137">0.9523810148239136 0 0 0.9523810148239136 489.373028 368.967052 e</path>
+    </node>
+    <node id="taubstummengasse" type="ipe">
+      <path fill="0.886275 0.023529 0.074510">0.9523810148239136 0 0 0.9523810148239136 448.74145 507.64111 e</path>
+    </node>
+    <node id="thaliastraße" type="ipe">
+      <path fill="0.611765 0.407843 0.188235">0.9523810148239136 0 0 0.9523810148239136 330.741151 430.739414 e</path>
+    </node>
+    <node id="troststraße" type="ipe">
+      <path fill="0.886275 0.023529 0.074510">0.9523810148239136 0 0 0.9523810148239136 485.02406 642.0755 e</path>
+    </node>
+    <node id="tscherttegasse" type="ipe">
+      <path fill="0.611765 0.407843 0.188235">0.9523810148239136 0 0 0.9523810148239136 293.59311 664.27596 e</path>
+    </node>
+    <node id="unter st. veit" type="ipe">
+      <path fill="0.007843 0.584314 0.250980">0.9523810148239136 0 0 0.9523810148239136 142.808284 522.046913 e</path>
+    </node>
+    <node id="vorgartenstraße" type="ipe">
+      <path fill="0.886275 0.023529 0.074510">0.9523810148239136 0 0 0.9523810148239136 559.978304 344.347069 e</path>
+    </node>
+    <node id="währinger straße-volksoper" type="ipe">
+      <path fill="0.611765 0.407843 0.188235">0.9523810148239136 0 0 0.9523810148239136 372.612694 333.452675 e</path>
+    </node>
+    <node id="zieglergasse" type="ipe">
+      <path fill="0.937255 0.486275 0.000000">0.9523810148239136 0 0 0.9523810148239136 360.823936 488.979554 e</path>
+    </node>
+    <node id="zippererstraße" type="ipe">
+      <path fill="0.937255 0.486275 0.000000">0.9523810148239136 0 0 0.9523810148239136 598.551758 580.442541 e</path>
+    </node>
+  </geometricembedding>
+</metromap>
